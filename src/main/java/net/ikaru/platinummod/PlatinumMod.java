@@ -47,10 +47,7 @@ public class PlatinumMod
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PLATINUM);
-            event.accept(ModItems.RAW_PLATINUM);
-        }
+
     }
 
     @SubscribeEvent

@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_PLATINUM.get());
                         pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_PLATINUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.PLATINUM_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE.get());
 
                     })
                     .build());

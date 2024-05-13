@@ -5,5 +5,8 @@
   "block.platinum_mod.platinum_block": "Block of Platinum",
   "block.platinum_mod.raw_platinum_block": "Block of Raw Platinum",
 
+  "block.platinum_mod.platinum_ore": "Platinum Ore",
+  "block.platinum_mod.deepslate_platinum_ore": "Deepslate Platinum Ore",
+
   "creativetab.platinum_tab": "Platinum"
 }
