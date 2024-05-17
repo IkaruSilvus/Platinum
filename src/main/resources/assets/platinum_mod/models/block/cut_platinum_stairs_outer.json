@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "platinum_mod:block/cut_platinum",
+    "side": "platinum_mod:block/cut_platinum",
+    "top": "platinum_mod:block/cut_platinum"
+  }
+}

@@ -5,10 +5,7 @@ import net.ikaru.platinummod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,6 +27,14 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops(), UniformInt.of(3,9)));
     public static final RegistryObject<Block> DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).requiresCorrectToolForDrops(), UniformInt.of(3,9)));
+    public static final RegistryObject<Block> PLATINUM_STAIRS = registerBlock("cut_platinum_stairs",
+            () -> new StairBlock(() -> ModBlocks.PLATINUM_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> PLATINUM_SLAB = registerBlock("cut_platinum_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> PLATINUM_CUT = registerBlock("cut_platinum",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "platinum_mod:platinum"
+  },
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "result": {
+    "item": "platinum_mod:platinum_leggings"
+  }
+}

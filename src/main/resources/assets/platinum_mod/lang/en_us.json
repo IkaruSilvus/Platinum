@@ -1,9 +1,17 @@
 {
   "item.platinum_mod.platinum": "Platinum Ingot",
   "item.platinum_mod.raw_platinum": "Raw Platinum",
+  "item.platinum_mod.platinum_sword": "Platinum Sword",
+  "item.platinum_mod.platinum_axe": "Platinum Axe",
+  "item.platinum_mod.platinum_pickaxe": "Platinum Pickaxe",
+  "item.platinum_mod.platinum_shovel": "Platinum Shovel",
+  "item.platinum_mod.platinum_hoe": "Platinum Hoe",
 
   "block.platinum_mod.platinum_block": "Block of Platinum",
   "block.platinum_mod.raw_platinum_block": "Block of Raw Platinum",
+  "block.platinum_mod.cut_platinum": "Cut Platinum",
+  "block.platinum_mod.cut_platinum_stairs": "Cut Platinum Stairs",
+  "block.platinum_mod.cut_platinum_slab": "Cut Platinum Slab",
 
   "block.platinum_mod.platinum_ore": "Platinum Ore",
   "block.platinum_mod.deepslate_platinum_ore": "Deepslate Platinum Ore",
