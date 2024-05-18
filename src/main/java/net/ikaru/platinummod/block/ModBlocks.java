@@ -25,7 +25,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_COPPER_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
     public static final RegistryObject<Block> PLATINUM_ORE = registerBlock("platinum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops(), UniformInt.of(3,9)));
-    public static final RegistryObject<Block> DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
+    public static final RegistryObject<Block> PLATINUM_DEEPORE = registerBlock("PLATINUM_DEEPORE",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).requiresCorrectToolForDrops(), UniformInt.of(3,9)));
     public static final RegistryObject<Block> PLATINUM_STAIRS = registerBlock("cut_platinum_stairs",
             () -> new StairBlock(() -> ModBlocks.PLATINUM_BLOCK.get().defaultBlockState(),

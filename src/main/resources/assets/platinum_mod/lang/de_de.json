@@ -1,0 +1,24 @@
+{
+  "item.platinum_mod.platinum": "Platinbarren",
+  "item.platinum_mod.raw_platinum": "Rohplatin",
+  "item.platinum_mod.platinum_sword": "Platinschwert",
+  "item.platinum_mod.platinum_axe": "Platinaxt",
+  "item.platinum_mod.platinum_pickaxe": "Platinspitzhacke",
+  "item.platinum_mod.platinum_shovel": "Platinschaufel",
+  "item.platinum_mod.platinum_hoe": "Platinhacke",
+  "item.platinum_mod.platinum_helmet": "Platinhelm",
+  "item.platinum_mod.platinum_chestplate": "Platingharnisch",
+  "item.platinum_mod.platinum_leggings": "Platinbeinschutz",
+  "item.platinum_mod.platinum_boots": "Platinstiefel",
+
+  "block.platinum_mod.platinum_block": "Platinblock",
+  "block.platinum_mod.raw_platinum_block": "Rohplatinblock",
+  "block.platinum_mod.cut_platinum": "Geschnittener Platinblock",
+  "block.platinum_mod.cut_platinum_stairs": "Geschnittene Platintreppe",
+  "block.platinum_mod.cut_platinum_slab": "Geschnittene Platinstufe",
+
+  "block.platinum_mod.platinum_ore": "Platinerz",
+  "block.platinum_mod.deepslate_platinum_ore": "Tiefenschiefer-Platinerz",
+
+  "creativetab.platinum_tab": "Platin"
+}

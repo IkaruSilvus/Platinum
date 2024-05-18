@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "platinum_mod:platinum_block"
+  },
+  "result": "platinum_mod:cut_platinum"
+}

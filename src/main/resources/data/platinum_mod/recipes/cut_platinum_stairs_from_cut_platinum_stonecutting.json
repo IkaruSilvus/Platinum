@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "platinum_mod:cut_platinum"
+  },
+  "result": "platinum_mod:cut_platinum_stairs"
+}
