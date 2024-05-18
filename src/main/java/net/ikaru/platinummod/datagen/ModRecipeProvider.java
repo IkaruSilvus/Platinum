@@ -50,6 +50,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.RAW_PLATINUM_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.RAW_PLATINUM_BLOCK.get()), has(ModBlocks.RAW_PLATINUM_BLOCK.get()))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PLATINUM_CUT.get())
+                .pattern("SS")
+                .pattern("SS")
+                .define('S', ModItems.PLATINUM.get())
+                .unlockedBy(getHasName(ModItems.PLATINUM.get()), has(ModItems.PLATINUM.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PLATINUM_SLAB.get())
+                .pattern("SSS")
+                .define('S', ModItems.PLATINUM.get())
+                .unlockedBy(getHasName(ModItems.PLATINUM.get()), has(ModItems.PLATINUM.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PLATINUM_STAIRS.get())
+                .pattern("S  ")
+                .pattern("SS ")
+                .pattern("SSS")
+                .define('S', ModItems.PLATINUM.get())
+                .unlockedBy(getHasName(ModItems.PLATINUM.get()), has(ModItems.PLATINUM.get()))
+                .save(pWriter);
+
+
 
     }
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {

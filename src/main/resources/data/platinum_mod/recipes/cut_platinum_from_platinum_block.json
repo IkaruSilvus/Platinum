@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
       "item": "platinum_mod:platinum_block"
@@ -11,8 +11,7 @@
     "##"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:cut_platinum"
-  },
-  "show_notification": true
+    "item": "platinum_mod:cut_platinum",
+    "count": 4
+  }
 }

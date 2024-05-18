@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "platinum_mod:platinum"
+      "item": "platinum_mod:cut_platinum"
     }
   },
   "pattern": [
@@ -13,7 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "item": "platinum:cut_platinum_stairs"
-  },
-  "show_notification": true
+    "item": "platinum_mod:cut_platinum_stairs"
+  }
 }
