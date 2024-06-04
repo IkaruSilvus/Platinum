@@ -11,6 +11,16 @@
   "item.platinum_mod.platinum_leggings": "Platinbeinschutz",
   "item.platinum_mod.platinum_boots": "Platinstiefel",
 
+  "item.platinum_mod.copper_sword": "Kupferschwert",
+  "item.platinum_mod.copper_axe": "Kupferaxt",
+  "item.platinum_mod.copper_pickaxe": "Kupferspitzhacke",
+  "item.platinum_mod.copper_shovel": "Kupferschaufel",
+  "item.platinum_mod.copper_hoe": "Kupferhacke",
+  "item.platinum_mod.copper_helmet": "Kupferhelm",
+  "item.platinum_mod.copper_chestplate": "Kupferharnisch",
+  "item.platinum_mod.copper_leggings": "Kupferbeinschutz",
+  "item.platinum_mod.copper_boots": "Kupferstiefel",
+
   "block.platinum_mod.platinum_block": "Platinblock",
   "block.platinum_mod.raw_platinum_block": "Rohplatinblock",
   "block.platinum_mod.cut_platinum": "Geschnittener Platinblock",

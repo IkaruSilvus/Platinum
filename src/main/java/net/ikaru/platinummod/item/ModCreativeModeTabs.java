@@ -18,8 +18,6 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINUM.get()))
                     .title(Component.translatable("creativetab.platinum_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.PLATINUM.get());
-                        pOutput.accept(ModItems.RAW_PLATINUM.get());
                         pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_PLATINUM_BLOCK.get());
                         pOutput.accept(ModBlocks.PLATINUM_ORE.get());
@@ -27,6 +25,17 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.PLATINUM_CUT.get());
                         pOutput.accept(ModBlocks.PLATINUM_STAIRS.get());
                         pOutput.accept(ModBlocks.PLATINUM_SLAB.get());
+                        pOutput.accept(ModItems.PLATINUM.get());
+                        pOutput.accept(ModItems.RAW_PLATINUM.get());
+                        pOutput.accept(ModItems.PLATINUM_SWORD.get());
+                        pOutput.accept(ModItems.PLATINUM_PICKAXE.get());
+                        pOutput.accept(ModItems.PLATINUM_AXE.get());
+                        pOutput.accept(ModItems.PLATINUM_SHOVEL.get());
+                        pOutput.accept(ModItems.PLATINUM_HOE.get());
+                        pOutput.accept(ModItems.PLATINUM_HELMET.get());
+                        pOutput.accept(ModItems.PLATINUM_CHESTPLATE.get());
+                        pOutput.accept(ModItems.PLATINUM_LEGGINGS.get());
+                        pOutput.accept(ModItems.PLATINUM_BOOTS.get());
 
                     })
                     .build());

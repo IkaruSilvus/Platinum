@@ -53,20 +53,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PLATINUM_CUT.get())
                 .pattern("SS")
                 .pattern("SS")
-                .define('S', ModItems.PLATINUM.get())
+                .define('S', ModBlocks.PLATINUM_BLOCK.get())
                 .unlockedBy(getHasName(ModItems.PLATINUM.get()), has(ModItems.PLATINUM.get()))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PLATINUM_SLAB.get())
                 .pattern("SSS")
                 .define('S', ModItems.PLATINUM.get())
-                .unlockedBy(getHasName(ModItems.PLATINUM.get()), has(ModItems.PLATINUM.get()))
+                .unlockedBy(getHasName(ModBlocks.PLATINUM_CUT.get()), has(ModItems.PLATINUM.get()))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PLATINUM_STAIRS.get())
                 .pattern("S  ")
                 .pattern("SS ")
                 .pattern("SSS")
                 .define('S', ModItems.PLATINUM.get())
-                .unlockedBy(getHasName(ModItems.PLATINUM.get()), has(ModItems.PLATINUM.get()))
+                .unlockedBy(getHasName(ModBlocks.PLATINUM_CUT.get()), has(ModItems.PLATINUM.get()))
                 .save(pWriter);
 
 

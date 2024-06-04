@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.ikaru.platinummod.block.ModBlocks;
 import net.ikaru.platinummod.item.ModCreativeModeTabs;
 import net.ikaru.platinummod.item.ModItems;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,7 +25,7 @@ import org.slf4j.Logger;
 public class PlatinumMod
 {
     public static final String MOD_ID = "platinum_mod";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public PlatinumMod()
     {
@@ -47,7 +48,20 @@ public class PlatinumMod
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.COPPER_AXE);
+            event.accept(ModItems.COPPER_HOE);
+            event.accept(ModItems.COPPER_SHOVEL);
+            event.accept(ModItems.COPPER_PICKAXE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.COPPER_SWORD);
+            event.accept(ModItems.COPPER_AXE);
+            event.accept(ModItems.COPPER_HELMET);
+            event.accept(ModItems.COPPER_CHESTPLATE);
+            event.accept(ModItems.COPPER_LEGGINGS);
+            event.accept(ModItems.COPPER_BOOTS);
+        }
     }
 
     @SubscribeEvent
@@ -61,5 +75,8 @@ public class PlatinumMod
         public static void onClientSetup(FMLClientSetupEvent event) {
 
         }
+    }
+    public static ResourceLocation asResource(String path) {
+        return new ResourceLocation(MOD_ID, path);
     }
 }

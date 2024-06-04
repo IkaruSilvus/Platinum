@@ -1,11 +1,15 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "platinum_mod:platinum"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "platinum_mod:platinum"
+    }
   },
-  "base": {
-    "item": "minecraft:iron_helmet"
-  },
+  "pattern": [
+    "###",
+    "# #"
+  ],
   "result": {
     "item": "platinum_mod:platinum_helmet"
   }

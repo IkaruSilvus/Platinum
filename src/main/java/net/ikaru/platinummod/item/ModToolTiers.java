@@ -3,6 +3,7 @@ package net.ikaru.platinummod.item;
 import net.ikaru.platinummod.PlatinumMod;
 import net.ikaru.platinummod.util.ModTags;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -13,7 +14,11 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier PLATINUM = TierSortingRegistry.registerTier(
-            new ForgeTier(4,1797,8.5f,3.5f,12,
+            new ForgeTier(4,1797,8.5f, .5f,12,
                     ModTags.Blocks.NEEDS_PLATINUM_TOOL, () -> Ingredient.of(ModItems.PLATINUM.get())),
             new ResourceLocation(PlatinumMod.MOD_ID, "platinum"), List.of(Tiers.DIAMOND), List.of(Tiers.NETHERITE));
+    public static final Tier COPPER = TierSortingRegistry.registerTier(
+            new ForgeTier(1,175,4.0f, .5f,8,
+                    ModTags.Blocks.NEEDS_COPPER_TOOL, () -> Ingredient.of(Items.COPPER_INGOT)),
+            new ResourceLocation(PlatinumMod.MOD_ID, "copper"), List.of(Tiers.STONE), List.of(Tiers.IRON));
 }
