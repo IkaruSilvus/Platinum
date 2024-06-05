@@ -1,0 +1,4 @@
+// 1.20.1	2024-05-29T16:21:26.9529836	Registries
+457fc01ff4c8c3132dbdcbb2d3a4cd72a49bfba8 data/platinum_mod/forge/biome_modifier/add_platinum_ore.json
+82cf5e901b5e080f2b074cfc853529daa348bfb0 data/platinum_mod/worldgen/configured_feature/platinum_ore.json
+7af82b211d425e9da7019635f6f86a1d00a235c4 data/platinum_mod/worldgen/placed_feature/platinum_ore_placed.json

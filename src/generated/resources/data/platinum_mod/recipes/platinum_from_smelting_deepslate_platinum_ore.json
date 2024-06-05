@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.2,
+  "group": "platinum",
+  "ingredient": {
+    "item": "platinum_mod:deepslate_platinum_ore"
+  },
+  "result": "platinum_mod:platinum"
+}
