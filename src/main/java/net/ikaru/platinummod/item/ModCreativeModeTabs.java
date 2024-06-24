@@ -18,6 +18,18 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINUM.get()))
                     .title(Component.translatable("creativetab.platinum_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.PLATINUM.get());
+                        pOutput.accept(ModItems.RAW_PLATINUM.get());
+                        pOutput.accept(ModItems.ENDER_TEAR.get());
+                        pOutput.accept(ModItems.DRAGON_CHARGE.get());
+                        pOutput.accept(ModItems.DRAGON_CORE.get());
+                        pOutput.accept(ModItems.SYNTHETIC_DRAGON_CORE.get());
+                    })
+                    .build());
+    public static final RegistryObject<CreativeModeTab> PLATINUM_BLOCKS = CREATIVE_MODE_TABS.register("platinum_blocks",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PLATINUM_BLOCK.get()))
+                    .title(Component.translatable("creativetab.platinum_blocks"))
+                    .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_PLATINUM_BLOCK.get());
                         pOutput.accept(ModBlocks.PLATINUM_ORE.get());
@@ -25,8 +37,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.PLATINUM_CUT.get());
                         pOutput.accept(ModBlocks.PLATINUM_STAIRS.get());
                         pOutput.accept(ModBlocks.PLATINUM_SLAB.get());
-                        pOutput.accept(ModItems.PLATINUM.get());
-                        pOutput.accept(ModItems.RAW_PLATINUM.get());
+                    })
+                    .build());
+    public static final RegistryObject<CreativeModeTab> PLATINUM_GEAR = CREATIVE_MODE_TABS.register("platinum_gear",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINUM_SWORD.get()))
+                    .title(Component.translatable("creativetab.platinum_gear"))
+                    .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.PLATINUM_SWORD.get());
                         pOutput.accept(ModItems.PLATINUM_PICKAXE.get());
                         pOutput.accept(ModItems.PLATINUM_AXE.get());
@@ -36,9 +52,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PLATINUM_CHESTPLATE.get());
                         pOutput.accept(ModItems.PLATINUM_LEGGINGS.get());
                         pOutput.accept(ModItems.PLATINUM_BOOTS.get());
-
+                        pOutput.accept(ModItems.PLATINUM_CORE.get());
                     })
                     .build());
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

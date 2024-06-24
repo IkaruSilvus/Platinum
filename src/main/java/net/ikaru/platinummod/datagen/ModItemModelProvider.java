@@ -14,6 +14,7 @@ import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.LinkedHashMap;
@@ -59,6 +60,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.COPPER_CHESTPLATE);
         trimmedArmorItem(ModItems.COPPER_LEGGINGS);
         trimmedArmorItem(ModItems.COPPER_BOOTS);
+        simpleItem(ModItems.ENDER_TEAR);
+        simpleItem(ModItems.SYNTHETIC_DRAGON_CORE);
+        simpleItem(ModItems.DRAGON_CORE);
+        simpleItem(ModItems.DRAGON_CHARGE);
+        simpleItem(ModItems.PLATINUM_CORE);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#O#",
+    " # "
+  ],
+  "result": {
+    "item": "minecraft:crying_obsidian"
+  }
+}

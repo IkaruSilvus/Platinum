@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.ikaru.platinummod.block.ModBlocks;
 import net.ikaru.platinummod.item.ModCreativeModeTabs;
 import net.ikaru.platinummod.item.ModItems;
+import net.ikaru.platinummod.loot.ModLootModifiers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +36,8 @@ public class PlatinumMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

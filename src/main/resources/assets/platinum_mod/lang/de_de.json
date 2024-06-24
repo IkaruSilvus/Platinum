@@ -21,6 +21,12 @@
   "item.platinum_mod.copper_leggings": "Kupferbeinschutz",
   "item.platinum_mod.copper_boots": "Kupferstiefel",
 
+  "item.platinum_mod.dragon_charge": "Drachenfeuerball",
+  "item.platinum_mod.ender_tear": "Enderträne",
+  "item.platinum_mod.platinum_core": "Platinkern",
+  "item.platinum_mod.dragon_core": "Drachenkern",
+  "item.platinum_mod.synthetic_dragon_core": "Synthetischer Drachenkern",
+
   "block.platinum_mod.platinum_block": "Platinblock",
   "block.platinum_mod.raw_platinum_block": "Rohplatinblock",
   "block.platinum_mod.cut_platinum": "Geschnittener Platinblock",
@@ -30,5 +36,7 @@
   "block.platinum_mod.platinum_ore": "Platinerz",
   "block.platinum_mod.deepslate_platinum_ore": "Tiefenschiefer-Platinerz",
 
-  "creativetab.platinum_tab": "Platin"
+  "creativetab.platinum_tab": "Platin: Materialien",
+  "creativetab.platinum_blocks": "Platin: Blöcke",
+  "creativetab.platinum_gear": "Platin: Ausrüstung"
 }

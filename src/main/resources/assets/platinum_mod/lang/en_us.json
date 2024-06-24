@@ -21,6 +21,13 @@
   "item.platinum_mod.copper_leggings": "Copper Leggings",
   "item.platinum_mod.copper_boots": "Copper Boots",
 
+  "item.platinum_mod.dragon_charge": "Dragon Charge",
+  "item.platinum_mod.ender_tear": "Ender Tear",
+  "item.platinum_mod.platinum_core": "Platinum Core",
+  "item.platinum_mod.dragon_core": "Dragon Core",
+  "item.platinum_mod.synthetic_dragon_core": "Synthetic Dragon Core",
+
+
   "block.platinum_mod.platinum_block": "Block of Platinum",
   "block.platinum_mod.raw_platinum_block": "Block of Raw Platinum",
   "block.platinum_mod.cut_platinum": "Cut Platinum",
@@ -30,5 +37,7 @@
   "block.platinum_mod.platinum_ore": "Platinum Ore",
   "block.platinum_mod.deepslate_platinum_ore": "Deepslate Platinum Ore",
 
-  "creativetab.platinum_tab": "Platinum"
+  "creativetab.platinum_tab": "Platinum: Materials",
+  "creativetab.platinum_blocks": "Platinum: Blocks",
+  "creativetab.platinum_gear": "Platinum: Gear"
 }

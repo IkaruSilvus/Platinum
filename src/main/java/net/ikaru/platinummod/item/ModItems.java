@@ -17,6 +17,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
                     () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DRAGON_CHARGE = ITEMS.register("dragon_charge",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DRAGON_CORE = ITEMS.register("dragon_core",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SYNTHETIC_DRAGON_CORE = ITEMS.register("synthetic_dragon_core",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ENDER_TEAR = ITEMS.register("ender_tear",
+            () -> new Item(new Item.Properties()));
+
 
     public static final RegistryObject<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword",
             () -> new SwordItem(ModToolTiers.PLATINUM, 6, -2.4f, new Item.Properties()));
@@ -57,6 +66,8 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots",
             () -> new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+
 
 
 

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "#": {
+      "item": "platinum_mod:dragon_charge"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "@": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "pattern": [
+    "@#@",
+    "ENE",
+    "@#@"
+  ],
+  "result": {
+    "item": "platinum_mod:synthetic_dragon_core"
+  }
+}
