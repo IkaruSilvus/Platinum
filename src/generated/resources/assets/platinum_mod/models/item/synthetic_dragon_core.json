@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "platinum_mod:item/synthetic_dragon_core"
+  }
+}
