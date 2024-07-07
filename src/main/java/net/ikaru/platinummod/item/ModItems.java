@@ -1,6 +1,7 @@
 package net.ikaru.platinummod.item;
 
 import net.ikaru.platinummod.PlatinumMod;
+import net.ikaru.platinummod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -59,13 +60,13 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_BOOTS = ITEMS.register("platinum_boots",
             () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.BOOTS, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_HELMET = ITEMS.register("neoplatinum_helmet",
-            () -> new ArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_CHESTPLATE = ITEMS.register("neoplatinum_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_LEGGINGS = ITEMS.register("neoplatinum_leggings",
-            () -> new ArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_BOOTS = ITEMS.register("neoplatinum_boots",
-            () -> new ArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword",
             () -> new SwordItem(ModToolTiers.COPPER, 5, -2.4f, new Item.Properties()));
