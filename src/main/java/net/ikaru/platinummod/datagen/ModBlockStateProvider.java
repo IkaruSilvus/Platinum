@@ -20,6 +20,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.PLATINUM_CUT);
         blockWithItem(ModBlocks.PLATINUM_ORE);
         blockWithItem(ModBlocks.PLATINUM_DEEPORE);
+        blockWithItem(ModBlocks.NEOPLATINUM_BLOCK);
+        blockWithItem(ModBlocks.NEOPLATINUM_CUT);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

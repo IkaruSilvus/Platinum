@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.platinum_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.PLATINUM.get());
+                        pOutput.accept(ModItems.NEOPLATINUM.get());
                         pOutput.accept(ModItems.RAW_PLATINUM.get());
                         pOutput.accept(ModItems.ENDER_TEAR.get());
                         pOutput.accept(ModItems.DRAGON_CHARGE.get());
@@ -37,6 +38,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.PLATINUM_CUT.get());
                         pOutput.accept(ModBlocks.PLATINUM_STAIRS.get());
                         pOutput.accept(ModBlocks.PLATINUM_SLAB.get());
+                        pOutput.accept(ModBlocks.NEOPLATINUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.NEOPLATINUM_CUT.get());
+                        pOutput.accept(ModBlocks.NEOPLATINUM_STAIRS.get());
+                        pOutput.accept(ModBlocks.NEOPLATINUM_SLAB.get());
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> PLATINUM_GEAR = CREATIVE_MODE_TABS.register("platinum_gear",
@@ -52,7 +57,15 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PLATINUM_CHESTPLATE.get());
                         pOutput.accept(ModItems.PLATINUM_LEGGINGS.get());
                         pOutput.accept(ModItems.PLATINUM_BOOTS.get());
-                        pOutput.accept(ModItems.PLATINUM_CORE.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_SWORD.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_PICKAXE.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_AXE.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_SHOVEL.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_HOE.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_HELMET.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_CHESTPLATE.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_LEGGINGS.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_BOOTS.get());
                     })
                     .build());
 

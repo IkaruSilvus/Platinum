@@ -1,5 +1,5 @@
-// 1.20.1	2024-06-04T19:06:13.4630805	Tags for minecraft:block mod id platinum_mod
-14e93b9762a5b4044b7dff7586e26344dbacbad2 data/minecraft/tags/blocks/mineable/pickaxe.json
-d3491900d6aada10fb8e60b51052b00140560baf data/minecraft/tags/blocks/needs_diamond_tool.json
+// 1.20.1	2024-07-07T17:54:47.9654082	Tags for minecraft:block mod id platinum_mod
+9e5cd9e2aa3415031ad3053d1b423a7c599d474e data/minecraft/tags/blocks/mineable/pickaxe.json
+ba52112f92d8f778e3676bf4be59849d21950dd5 data/minecraft/tags/blocks/needs_diamond_tool.json
 29602089f0edd0b18a331e236427c6717c084cb3 data/minecraft/tags/blocks/needs_iron_tool.json
 20fde11f1da09de34bff4b1b72d6d1aaf98ab2ec data/platinum_mod/tags/blocks/needs_copper_tool.json

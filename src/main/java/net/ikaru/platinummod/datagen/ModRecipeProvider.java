@@ -68,6 +68,35 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', ModItems.PLATINUM.get())
                 .unlockedBy(getHasName(ModBlocks.PLATINUM_CUT.get()), has(ModItems.PLATINUM.get()))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NEOPLATINUM_BLOCK.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.NEOPLATINUM.get())
+                .unlockedBy(getHasName(ModItems.NEOPLATINUM.get()), has(ModItems.NEOPLATINUM.get()))
+                .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.NEOPLATINUM.get(), 9)
+                .requires(ModBlocks.NEOPLATINUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.NEOPLATINUM_BLOCK.get()), has(ModBlocks.NEOPLATINUM_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NEOPLATINUM_CUT.get())
+                .pattern("SS")
+                .pattern("SS")
+                .define('S', ModBlocks.NEOPLATINUM_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.NEOPLATINUM.get()), has(ModItems.NEOPLATINUM.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NEOPLATINUM_SLAB.get())
+                .pattern("SSS")
+                .define('S', ModItems.NEOPLATINUM.get())
+                .unlockedBy(getHasName(ModBlocks.NEOPLATINUM_CUT.get()), has(ModItems.NEOPLATINUM.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NEOPLATINUM_STAIRS.get())
+                .pattern("S  ")
+                .pattern("SS ")
+                .pattern("SSS")
+                .define('S', ModItems.NEOPLATINUM.get())
+                .unlockedBy(getHasName(ModBlocks.NEOPLATINUM_CUT.get()), has(ModItems.NEOPLATINUM.get()))
+                .save(pWriter);
 
 
 

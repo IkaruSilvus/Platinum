@@ -17,6 +17,10 @@ public class ModToolTiers {
             new ForgeTier(4,1797,8.5f, .5f,12,
                     ModTags.Blocks.NEEDS_PLATINUM_TOOL, () -> Ingredient.of(ModItems.PLATINUM.get())),
             new ResourceLocation(PlatinumMod.MOD_ID, "platinum"), List.of(Tiers.DIAMOND), List.of(Tiers.NETHERITE));
+    public static final Tier NEOPLATINUM = TierSortingRegistry.registerTier(
+            new ForgeTier(6,10000,12f, -1f,12,
+                    ModTags.Blocks.NEEDS_NEOPLATINUM_TOOL, () -> Ingredient.of(ModItems.NEOPLATINUM.get())),
+            new ResourceLocation(PlatinumMod.MOD_ID, "neoplatinum"), List.of(Tiers.NETHERITE), List.of());
     public static final Tier COPPER = TierSortingRegistry.registerTier(
             new ForgeTier(1,175,4.0f, .5f,8,
                     ModTags.Blocks.NEEDS_COPPER_TOOL, () -> Ingredient.of(Items.COPPER_INGOT)),

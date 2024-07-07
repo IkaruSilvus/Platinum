@@ -25,6 +25,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ENDER_TEAR = ITEMS.register("ender_tear",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM = ITEMS.register("neoplatinum",
+            () -> new Item(new Item.Properties()));
 
 
     public static final RegistryObject<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword",
@@ -37,6 +39,16 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.PLATINUM, 5, -3, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe",
             () -> new HoeItem(ModToolTiers.PLATINUM, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_SWORD = ITEMS.register("neoplatinum_sword",
+            () -> new SwordItem(ModToolTiers.NEOPLATINUM, 14, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_PICKAXE = ITEMS.register("neoplatinum_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.NEOPLATINUM, 5, -2.8f, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_AXE = ITEMS.register("neoplatinum_axe",
+            () -> new AxeItem(ModToolTiers.NEOPLATINUM, 17, -3, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_SHOVEL = ITEMS.register("neoplatinum_shovel",
+            () -> new ShovelItem(ModToolTiers.NEOPLATINUM, 5, -3, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_HOE = ITEMS.register("neoplatinum_hoe",
+            () -> new HoeItem(ModToolTiers.NEOPLATINUM, 1, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> PLATINUM_HELMET = ITEMS.register("platinum_helmet",
             () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -46,6 +58,14 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_BOOTS = ITEMS.register("platinum_boots",
             () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_HELMET = ITEMS.register("neoplatinum_helmet",
+            () -> new ArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_CHESTPLATE = ITEMS.register("neoplatinum_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_LEGGINGS = ITEMS.register("neoplatinum_leggings",
+            () -> new ArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_BOOTS = ITEMS.register("neoplatinum_boots",
+            () -> new ArmorItem(ModArmorMaterials.NEOPLATINUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword",
             () -> new SwordItem(ModToolTiers.COPPER, 5, -2.4f, new Item.Properties()));
@@ -71,7 +91,7 @@ public class ModItems {
 
 
 
-    public static void register(IEventBus eventBus) {
+   public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
 }

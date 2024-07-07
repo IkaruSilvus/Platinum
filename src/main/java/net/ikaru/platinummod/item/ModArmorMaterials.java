@@ -13,6 +13,8 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     PLATINUM("platinum", 35, new int[]{ 3, 8, 6, 3 }, 12,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5f, .05f, () -> Ingredient.of(ModItems.PLATINUM.get())),
+    NEOPLATINUM("neoplatinum", 500, new int[]{ 5, 10, 8, 5 }, 12,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, .7f, .5f, () -> Ingredient.of(ModItems.NEOPLATINUM.get())),
     COPPER("copper", 15, new int[]{ 2, 5, 4, 1 }, 12,
             SoundEvents.ARMOR_EQUIP_GOLD, 0.0f, 0.0f, () -> Ingredient.of(Items.COPPER_INGOT));
 

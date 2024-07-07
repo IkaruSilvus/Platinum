@@ -26,6 +26,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.PLATINUM_CHESTPLATE.get(),
                         ModItems.PLATINUM_LEGGINGS.get(),
                         ModItems.PLATINUM_BOOTS.get())
+                .add(ModItems.NEOPLATINUM_HELMET.get(),
+                        ModItems.NEOPLATINUM_CHESTPLATE.get(),
+                        ModItems.NEOPLATINUM_LEGGINGS.get(),
+                        ModItems.NEOPLATINUM_BOOTS.get())
                 .add(ModItems.COPPER_HELMET.get(),
                         ModItems.COPPER_CHESTPLATE.get(),
                         ModItems.COPPER_LEGGINGS.get(),
@@ -33,18 +37,23 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.PICKAXES)
                 .add(ModItems.PLATINUM_PICKAXE.get(),
-                        ModItems.COPPER_PICKAXE.get());
+                        ModItems.COPPER_PICKAXE.get(),
+                        ModItems.NEOPLATINUM_PICKAXE.get());
         this.tag(ItemTags.AXES)
                 .add(ModItems.PLATINUM_AXE.get(),
-                        ModItems.COPPER_AXE.get());
+                        ModItems.COPPER_AXE.get(),
+                        ModItems.NEOPLATINUM_AXE.get());
         this.tag(ItemTags.SHOVELS)
                 .add(ModItems.PLATINUM_SHOVEL.get(),
-                        ModItems.COPPER_SHOVEL.get());
+                        ModItems.COPPER_SHOVEL.get(),
+                        ModItems.NEOPLATINUM_SHOVEL.get());
         this.tag(ItemTags.HOES)
                 .add(ModItems.PLATINUM_HOE.get(),
-                        ModItems.COPPER_HOE.get());
+                        ModItems.COPPER_HOE.get(),
+                        ModItems.NEOPLATINUM_HOE.get());
         this.tag(ItemTags.SWORDS)
                 .add(ModItems.PLATINUM_SWORD.get(),
-                        ModItems.COPPER_SWORD.get());
+                        ModItems.COPPER_SWORD.get(),
+                        ModItems.NEOPLATINUM_SWORD.get());
     }
 }

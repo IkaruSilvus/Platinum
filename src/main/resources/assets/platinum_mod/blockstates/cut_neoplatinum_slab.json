@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "platinum_mod:block/cut_neoplatinum_slab"
+    },
+    "type=double": {
+      "model": "platinum_mod:block/cut_neoplatinum"
+    },
+    "type=top": {
+      "model": "platinum_mod:block/cut_neoplatinum_slab_top"
+    }
+  }
+}

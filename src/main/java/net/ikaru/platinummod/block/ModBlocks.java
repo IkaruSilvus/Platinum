@@ -34,6 +34,15 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
     public static final RegistryObject<Block> PLATINUM_CUT = registerBlock("cut_platinum",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> NEOPLATINUM_BLOCK = registerBlock("neoplatinum_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> NEOPLATINUM_STAIRS = registerBlock("cut_neoplatinum_stairs",
+            () -> new StairBlock(() -> ModBlocks.NEOPLATINUM_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> NEOPLATINUM_SLAB = registerBlock("cut_neoplatinum_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> NEOPLATINUM_CUT = registerBlock("cut_neoplatinum",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
 
 
 

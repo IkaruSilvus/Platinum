@@ -1,34 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:copper_ingot"
-    },
-    {
-      "item": "minecraft:copper_ingot"
-    },
-    {
-      "item": "minecraft:copper_ingot"
-    },
-    {
-      "item": "minecraft:copper_ingot"
-    },
-    {
+  "key": {
+    "/": {
       "item": "minecraft:gold_ingot"
     },
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
+    "#": {
       "item": "minecraft:netherite_scrap"
     },
-    {
-      "item": "minecraft:netherite_scrap"
+    "@": {
+      "item": "minecraft:copper_ingot"
     }
+  },
+  "pattern": [
+    "@#@",
+    "///",
+    "@#@"
   ],
   "result": {
     "item": "platinum_mod:platinum",

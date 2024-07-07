@@ -23,6 +23,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.PLATINUM_CUT.get());
         this.dropSelf(ModBlocks.PLATINUM_STAIRS.get());
         this.dropSelf(ModBlocks.PLATINUM_SLAB.get());
+        this.dropSelf(ModBlocks.NEOPLATINUM_BLOCK.get());
+        this.dropSelf(ModBlocks.NEOPLATINUM_CUT.get());
+        this.dropSelf(ModBlocks.NEOPLATINUM_STAIRS.get());
+        this.dropSelf(ModBlocks.NEOPLATINUM_SLAB.get());
 
         this.add(ModBlocks.PLATINUM_ORE.get(),
                 block -> createOreDrop(ModBlocks.PLATINUM_ORE.get(), ModItems.RAW_PLATINUM.get()));

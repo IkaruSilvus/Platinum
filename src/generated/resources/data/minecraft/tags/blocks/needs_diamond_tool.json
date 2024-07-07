@@ -1,6 +1,10 @@
 {
   "values": [
     "platinum_mod:platinum_ore",
-    "platinum_mod:deepslate_platinum_ore"
+    "platinum_mod:deepslate_platinum_ore",
+    "platinum_mod:cut_neoplatinum",
+    "platinum_mod:neoplatinum_block",
+    "platinum_mod:cut_neoplatinum_stairs",
+    "platinum_mod:cut_neoplatinum_slab"
   ]
 }

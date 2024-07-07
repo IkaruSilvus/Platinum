@@ -1,8 +1,12 @@
-// 1.20.1	2024-05-18T10:34:37.9941645	Loot Tables
+// 1.20.1	2024-07-07T17:54:47.9644093	Loot Tables
+bb934da946c2378cde97945e4084e9db5aa0cf6c data/platinum_mod/loot_tables/blocks/cut_neoplatinum.json
+66c690e56a58b874f55d5eba44ac970d8882d072 data/platinum_mod/loot_tables/blocks/cut_neoplatinum_slab.json
+a0f95fd9bfdefeb361c1b8c5a7b77ef2a3fc198d data/platinum_mod/loot_tables/blocks/cut_neoplatinum_stairs.json
 856cbd0f29532657235b1c5a2eea175cb281f0a1 data/platinum_mod/loot_tables/blocks/cut_platinum.json
 c360af3565b371089e6bb9d8897480fa6f3f467b data/platinum_mod/loot_tables/blocks/cut_platinum_slab.json
 915ae821e7d67ab2ef65458818c82d5347f05dca data/platinum_mod/loot_tables/blocks/cut_platinum_stairs.json
 6a677377fa16d540677228492589c718faa8f042 data/platinum_mod/loot_tables/blocks/deepslate_platinum_ore.json
+5be5482d9c5e431df6dbdebcf35a1bf2f43278a0 data/platinum_mod/loot_tables/blocks/neoplatinum_block.json
 b4c141754235e8f8e2f6a95f93bc3b34c9400b9d data/platinum_mod/loot_tables/blocks/platinum_block.json
 6d6bce428ccf81ab0e80fe7f984f4863cfc79c6f data/platinum_mod/loot_tables/blocks/platinum_ore.json
 0325c8e8e90a5481cc69247eb738468f4b9388cc data/platinum_mod/loot_tables/blocks/raw_platinum_block.json

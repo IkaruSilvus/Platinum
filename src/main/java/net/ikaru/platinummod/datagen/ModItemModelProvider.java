@@ -51,6 +51,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.PLATINUM_CHESTPLATE);
         trimmedArmorItem(ModItems.PLATINUM_LEGGINGS);
         trimmedArmorItem(ModItems.PLATINUM_BOOTS);
+        simpleItem(ModItems.NEOPLATINUM);
+        handheldItem(ModItems.NEOPLATINUM_SWORD);
+        handheldItem(ModItems.NEOPLATINUM_PICKAXE);
+        handheldItem(ModItems.NEOPLATINUM_AXE);
+        handheldItem(ModItems.NEOPLATINUM_SHOVEL);
+        handheldItem(ModItems.NEOPLATINUM_HOE);
+        trimmedArmorItem(ModItems.NEOPLATINUM_HELMET);
+        trimmedArmorItem(ModItems.NEOPLATINUM_CHESTPLATE);
+        trimmedArmorItem(ModItems.NEOPLATINUM_LEGGINGS);
+        trimmedArmorItem(ModItems.NEOPLATINUM_BOOTS);
         handheldItem(ModItems.COPPER_SWORD);
         handheldItem(ModItems.COPPER_PICKAXE);
         handheldItem(ModItems.COPPER_AXE);
@@ -64,7 +74,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SYNTHETIC_DRAGON_CORE);
         simpleItem(ModItems.DRAGON_CORE);
         simpleItem(ModItems.DRAGON_CHARGE);
-        simpleItem(ModItems.PLATINUM_CORE);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

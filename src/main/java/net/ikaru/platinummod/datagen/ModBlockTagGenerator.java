@@ -31,7 +31,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         (ModBlocks.PLATINUM_SLAB.get()),
                         (ModBlocks.RAW_PLATINUM_BLOCK.get()));
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.PLATINUM_ORE.get(), ModBlocks.PLATINUM_DEEPORE.get());
+                .add(ModBlocks.PLATINUM_ORE.get(), ModBlocks.PLATINUM_DEEPORE.get(),
+                        (ModBlocks.NEOPLATINUM_CUT.get()),
+                        (ModBlocks.NEOPLATINUM_BLOCK.get()),
+                        (ModBlocks.NEOPLATINUM_STAIRS.get()),
+                        (ModBlocks.NEOPLATINUM_SLAB.get()));
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.PLATINUM_CUT.get(),
                         (ModBlocks.PLATINUM_BLOCK.get()),
@@ -39,7 +43,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         (ModBlocks.PLATINUM_SLAB.get()),
                         (ModBlocks.RAW_PLATINUM_BLOCK.get()),
                         (ModBlocks.PLATINUM_ORE.get()),
-                        (ModBlocks.PLATINUM_DEEPORE.get()));
+                        (ModBlocks.PLATINUM_DEEPORE.get()),
+                        (ModBlocks.NEOPLATINUM_CUT.get()),
+                        (ModBlocks.NEOPLATINUM_BLOCK.get()),
+                        (ModBlocks.NEOPLATINUM_STAIRS.get()),
+                        (ModBlocks.NEOPLATINUM_SLAB.get()));
         this.tag(ModTags.Blocks.NEEDS_COPPER_TOOL)
                 .add(Blocks.GOLD_BLOCK,
                         Blocks.GOLD_ORE,

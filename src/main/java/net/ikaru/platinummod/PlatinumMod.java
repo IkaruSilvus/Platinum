@@ -32,6 +32,7 @@ public class PlatinumMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);

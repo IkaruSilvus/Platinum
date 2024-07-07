@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "@": {
+      "item": "platinum_mod:platinum"
+    },
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "#@#",
+    "@#@",
+    "#@#"
+  ],
+  "result": {
+    "item": "platinum_mod:neoplatinum",
+    "count": 2
+  }
+}
