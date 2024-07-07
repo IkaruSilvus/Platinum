@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "platinum_mod:neoplatinum"
+    }
+  },
+  "pattern": [
+    "SSS"
+  ],
+  "result": {
+    "item": "platinum_mod:cut_neoplatinum_slab"
+  },
+  "show_notification": true
+}
