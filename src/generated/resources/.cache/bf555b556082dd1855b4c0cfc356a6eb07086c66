@@ -1,7 +1,7 @@
-// 1.20.1	2024-07-07T17:54:47.9584127	Tags for minecraft:item mod id platinum_mod
+// 1.20.1	2024-08-06T15:34:11.5473819	Tags for minecraft:item mod id platinum_mod
 acdf586f11ae57d2d2b53f8386f38da0416481f6 data/minecraft/tags/items/axes.json
 829eb7420ad0485460f5d27d3a3eaea8fee35055 data/minecraft/tags/items/hoes.json
 50df5903c6f46b37e068a5388aab2f9e527109e5 data/minecraft/tags/items/pickaxes.json
 4a70b3a6a63640434d592bc848a462984df3b50b data/minecraft/tags/items/shovels.json
-ee59afb5d63fb86af50af69e74d3bda73071d16b data/minecraft/tags/items/swords.json
+6839b0a4276eebbf5a1e6c31be21bdbe408541e6 data/minecraft/tags/items/swords.json
 3d2427c90f178de55345238c3dace1c03f257c8e data/minecraft/tags/items/trimmable_armor.json
