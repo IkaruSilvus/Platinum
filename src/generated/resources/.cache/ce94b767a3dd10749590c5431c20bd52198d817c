@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-07T17:54:47.9604104	Item Models: platinum_mod
+// 1.20.1	2024-08-06T16:14:14.7520432	Item Models: platinum_mod
 f551d74a39dd6ebe191bafb089abdf294be8fd80 assets/platinum_mod/models/item/copper_axe.json
 b67ee5606b86e746902c9af53b0280fb764d40c4 assets/platinum_mod/models/item/copper_boots.json
 4e33c940256832a3e28170b30a3bc70248d7920f assets/platinum_mod/models/item/copper_boots_amethyst_trim.json
@@ -53,6 +53,7 @@ f0d44d60121c7974157fa5c8ea3ab6f525fa4444 assets/platinum_mod/models/item/copper_
 f03f000edea4f0509bebeea290e453ed7536fc38 assets/platinum_mod/models/item/ender_tear.json
 52964475abea20729d0900490bc33e40fc3c343f assets/platinum_mod/models/item/neoplatinum.json
 8ae4a2063380d7be72da4a318177312b66613973 assets/platinum_mod/models/item/neoplatinum_axe.json
+1f27bca54a79ad1c91a4b746392734b1d288f230 assets/platinum_mod/models/item/neoplatinum_battleaxe.json
 a523f283dc256571c43fb525f5a10a2373ad7b9b assets/platinum_mod/models/item/neoplatinum_boots.json
 91f44650dbb04126d3a6593b49caa191069023d1 assets/platinum_mod/models/item/neoplatinum_boots_amethyst_trim.json
 6cb769cef68b223c66659d3616eea458d46e62b0 assets/platinum_mod/models/item/neoplatinum_boots_copper_trim.json

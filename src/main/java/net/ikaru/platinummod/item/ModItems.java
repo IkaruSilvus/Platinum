@@ -41,15 +41,17 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe",
             () -> new HoeItem(ModToolTiers.PLATINUM, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_SWORD = ITEMS.register("neoplatinum_sword",
-            () -> new SwordItem(ModToolTiers.NEOPLATINUM, 14, -2.4f, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.NEOPLATINUM, 13, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_PICKAXE = ITEMS.register("neoplatinum_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.NEOPLATINUM, 5, -2.8f, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.NEOPLATINUM, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_AXE = ITEMS.register("neoplatinum_axe",
-            () -> new AxeItem(ModToolTiers.NEOPLATINUM, 17, -3, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.NEOPLATINUM, 15, -3, new Item.Properties()));
+    public static final RegistryObject<Item> NEOPLATINUM_BATTLEAXE = ITEMS.register("neoplatinum_battleaxe",
+            () -> new SwordItem(ModToolTiers.NEOPLATINUM, 17, -3, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_SHOVEL = ITEMS.register("neoplatinum_shovel",
-            () -> new ShovelItem(ModToolTiers.NEOPLATINUM, 5, -3, new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.NEOPLATINUM, 6, -3, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_HOE = ITEMS.register("neoplatinum_hoe",
-            () -> new HoeItem(ModToolTiers.NEOPLATINUM, 1, 0, new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.NEOPLATINUM, 0, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> PLATINUM_HELMET = ITEMS.register("platinum_helmet",
             () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.HELMET, new Item.Properties()));

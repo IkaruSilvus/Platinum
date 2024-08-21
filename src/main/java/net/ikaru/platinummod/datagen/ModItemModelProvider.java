@@ -55,6 +55,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.NEOPLATINUM_SWORD);
         handheldItem(ModItems.NEOPLATINUM_PICKAXE);
         handheldItem(ModItems.NEOPLATINUM_AXE);
+        handheldItem(ModItems.NEOPLATINUM_BATTLEAXE);
         handheldItem(ModItems.NEOPLATINUM_SHOVEL);
         handheldItem(ModItems.NEOPLATINUM_HOE);
         trimmedArmorItem(ModItems.NEOPLATINUM_HELMET);
