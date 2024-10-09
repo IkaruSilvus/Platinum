@@ -75,6 +75,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SYNTHETIC_DRAGON_CORE);
         simpleItem(ModItems.DRAGON_CORE);
         simpleItem(ModItems.DRAGON_CHARGE);
+        handheldItem(ModItems.WRENCH);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
