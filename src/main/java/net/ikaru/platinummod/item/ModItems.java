@@ -90,7 +90,8 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots",
             () -> new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-
+    public static final RegistryObject<Item> WRENCH = ITEMS.register("wrench",
+            () -> new AxeItem(ToolTiers.IRON, 6f, -2.4, new Item.Properties()));
 
 
 
