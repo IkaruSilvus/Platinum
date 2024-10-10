@@ -55,5 +55,8 @@
 
   "creativetab.platinum_tab": "Platin: Materialien",
   "creativetab.platinum_blocks": "Platin: Blöcke",
-  "creativetab.platinum_gear": "Platin: Ausrüstung"
+  "creativetab.platinum_gear": "Platin: Ausrüstung",
+
+  "tooltip.platinummod.wrench.tooltip": "§5§oWelchen Sinn hat es, das zu schaffen?",
+  "advancements.platinum.root.title": "Platin"
 }

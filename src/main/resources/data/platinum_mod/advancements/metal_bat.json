@@ -1,0 +1,27 @@
+{
+  "parent": "platinum_mod:mixel_bat",
+  "display": {
+    "icon": {
+      "item": "platinum_mod:metal_bat"
+    },
+    "title": "Bonk",
+    "description": "scout tf2 gaming",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "platinum_mod:metal_bat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

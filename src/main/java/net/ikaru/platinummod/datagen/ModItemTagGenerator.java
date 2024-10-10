@@ -55,7 +55,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.PLATINUM_SWORD.get(),
                         ModItems.COPPER_SWORD.get(),
                         ModItems.NEOPLATINUM_BATTLEAXE.get(),
-                        ModItems.NEOPLATINUM_SWORD.get()
-                        ModItems.WRENCH.get);
+                        ModItems.NEOPLATINUM_SWORD.get(),
+                        ModItems.WRENCH.get());
     }
 }

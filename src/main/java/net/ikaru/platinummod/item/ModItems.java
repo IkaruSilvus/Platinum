@@ -1,7 +1,9 @@
 package net.ikaru.platinummod.item;
 
 import net.ikaru.platinummod.PlatinumMod;
+import net.ikaru.platinummod.item.custom.BatItem;
 import net.ikaru.platinummod.item.custom.ModArmorItem;
+import net.ikaru.platinummod.item.custom.WrenchItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -91,8 +93,11 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> WRENCH = ITEMS.register("wrench",
-            () -> new AxeItem(ToolTiers.IRON, 6f, -2.4, new Item.Properties()));
-
+            () -> new WrenchItem(Tiers.IRON, 3f, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_BAT = ITEMS.register("wooden_bat",
+            () -> new BatItem(Tiers.WOOD, 8f, -3f, new Item.Properties()));
+    public static final RegistryObject<Item> METAL_BAT = ITEMS.register("metal_bat",
+            () -> new BatItem(Tiers.IRON, 8f, -3f, new Item.Properties()));
 
 
    public static void register(IEventBus eventBus) {

@@ -60,13 +60,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.NEOPLATINUM_SWORD.get());
                         pOutput.accept(ModItems.NEOPLATINUM_PICKAXE.get());
                         pOutput.accept(ModItems.NEOPLATINUM_AXE.get());
-                        pOutput.accept(ModItems.NEOPLATINUM_BATTLEAXE.get());
                         pOutput.accept(ModItems.NEOPLATINUM_SHOVEL.get());
                         pOutput.accept(ModItems.NEOPLATINUM_HOE.get());
                         pOutput.accept(ModItems.NEOPLATINUM_HELMET.get());
                         pOutput.accept(ModItems.NEOPLATINUM_CHESTPLATE.get());
                         pOutput.accept(ModItems.NEOPLATINUM_LEGGINGS.get());
                         pOutput.accept(ModItems.NEOPLATINUM_BOOTS.get());
+                        pOutput.accept(ModItems.NEOPLATINUM_BATTLEAXE.get());
+                        pOutput.accept(ModItems.WRENCH.get());
+                        pOutput.accept(ModItems.WOODEN_BAT.get());
+                        pOutput.accept(ModItems.METAL_BAT.get());
                     })
                     .build());
 

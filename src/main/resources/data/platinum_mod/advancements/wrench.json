@@ -1,0 +1,27 @@
+{
+  "parent": "platinum_mod:root",
+  "display": {
+    "icon": {
+      "item": "platinum_mod:wrench"
+    },
+    "title": "Waste of Iron",
+    "description": "Were you seriously planning on using this?",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "platinum_mod:wrench"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -3,11 +3,11 @@
   "category": "misc",
   "key": {
     "S": {
-      "item": "minecraft:iron"
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    " S",
+    "S ",
     "S "
   ],
   "result": {

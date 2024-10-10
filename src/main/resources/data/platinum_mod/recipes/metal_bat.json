@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "@": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "  @",
+    " # ",
+    "S  "
+  ],
+  "result": {
+    "item": "platinum_mod:metal_bat"
+  }
+}

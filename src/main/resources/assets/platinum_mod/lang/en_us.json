@@ -33,6 +33,8 @@
   "item.platinum_mod.copper_boots": "Copper Boots",
 
   "item.platinum_mod.wrench": "Wrench",
+  "item.platinum_mod.wooden_bat": "Wooden Bat",
+  "item.platinum_mod.metal_bat": "Metal Bat",
 
   "item.platinum_mod.dragon_charge": "Dragon Charge",
   "item.platinum_mod.ender_tear": "Ender Tear",
@@ -56,5 +58,9 @@
 
   "creativetab.platinum_tab": "Platinum: Materials",
   "creativetab.platinum_blocks": "Platinum: Blocks",
-  "creativetab.platinum_gear": "Platinum: Gear"
+  "creativetab.platinum_gear": "Platinum: Gear",
+
+  "tooltip.platinummod.wrench.tooltip": "§5§oWhy would you make this?",
+  "tooltip.platinummod.bat.tooltip": "§5§oget bonked loser",
+  "advancements.platinum.root.title": "Platinum"
 }
