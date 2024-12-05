@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-09T21:14:15.872437	Item Models: platinum_mod
+// 1.20.1	2024-11-09T11:13:52.2362011	Item Models: platinum_mod
 f551d74a39dd6ebe191bafb089abdf294be8fd80 assets/platinum_mod/models/item/copper_axe.json
 b67ee5606b86e746902c9af53b0280fb764d40c4 assets/platinum_mod/models/item/copper_boots.json
 4e33c940256832a3e28170b30a3bc70248d7920f assets/platinum_mod/models/item/copper_boots_amethyst_trim.json
@@ -48,10 +48,12 @@ dc74bfdf6f272c6ad6a90bafc0231f342ae30f57 assets/platinum_mod/models/item/copper_
 5e0b64e2b96873bb489709409c2cfb03dc769df9 assets/platinum_mod/models/item/copper_pickaxe.json
 82662fe5a849df56ed8845af2134ed07a42ed725 assets/platinum_mod/models/item/copper_shovel.json
 f0d44d60121c7974157fa5c8ea3ab6f525fa4444 assets/platinum_mod/models/item/copper_sword.json
+fb09bd3289a08c3ca4db50288e52632016126b46 assets/platinum_mod/models/item/diamond_bat.json
 4c111967c9be45c479027a3a8b63e8e2c53b7d16 assets/platinum_mod/models/item/dragon_charge.json
 2fe47cea41ee6fd5b609bda124c56ef1e8e26c3e assets/platinum_mod/models/item/dragon_core.json
 f03f000edea4f0509bebeea290e453ed7536fc38 assets/platinum_mod/models/item/ender_tear.json
 1f51a4f3f6f4de4bbfd874d83a32f2e964425757 assets/platinum_mod/models/item/metal_bat.json
+2a234b07ef9054ca1488feb6d178cf5539b80283 assets/platinum_mod/models/item/metal_pipe.json
 52964475abea20729d0900490bc33e40fc3c343f assets/platinum_mod/models/item/neoplatinum.json
 8ae4a2063380d7be72da4a318177312b66613973 assets/platinum_mod/models/item/neoplatinum_axe.json
 1f27bca54a79ad1c91a4b746392734b1d288f230 assets/platinum_mod/models/item/neoplatinum_battleaxe.json
@@ -103,6 +105,8 @@ d3fbed338f5bec207f13d112b7ef66d95c97c00f assets/platinum_mod/models/item/neoplat
 ee658397535545b4a57f69aa594dddababcba672 assets/platinum_mod/models/item/neoplatinum_pickaxe.json
 8100e524888426f2e03a9c5d291f193a69d7dd35 assets/platinum_mod/models/item/neoplatinum_shovel.json
 1fccb66c7e88649c9fa90f33e28d343db04d5a34 assets/platinum_mod/models/item/neoplatinum_sword.json
+a3ccd210e9d4cfa89f0234d2b295911762256bf6 assets/platinum_mod/models/item/netherite_bat.json
+baf3023e773e3e5672c278e570c149fc567c51d1 assets/platinum_mod/models/item/obsidian_knife.json
 31a85eff7cf8d36e30c6de449a92f81b8d6b0430 assets/platinum_mod/models/item/platinum.json
 d5ce23cc4ab143bbd936396faa51afda4751ca52 assets/platinum_mod/models/item/platinum_axe.json
 2320138905c41fe1a212e04deba7df0e4325d1d7 assets/platinum_mod/models/item/platinum_boots.json

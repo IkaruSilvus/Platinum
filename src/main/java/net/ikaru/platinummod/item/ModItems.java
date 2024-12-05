@@ -2,6 +2,7 @@ package net.ikaru.platinummod.item;
 
 import net.ikaru.platinummod.PlatinumMod;
 import net.ikaru.platinummod.item.custom.BatItem;
+import net.ikaru.platinummod.item.custom.KnifeItem;
 import net.ikaru.platinummod.item.custom.ModArmorItem;
 import net.ikaru.platinummod.item.custom.WrenchItem;
 import net.minecraft.world.item.*;
@@ -29,6 +30,8 @@ public class ModItems {
     public static final RegistryObject<Item> ENDER_TEAR = ITEMS.register("ender_tear",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM = ITEMS.register("neoplatinum",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_PIPE = ITEMS.register("metal_pipe",
             () -> new Item(new Item.Properties()));
 
 
@@ -95,9 +98,15 @@ public class ModItems {
     public static final RegistryObject<Item> WRENCH = ITEMS.register("wrench",
             () -> new WrenchItem(Tiers.IRON, 3f, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_BAT = ITEMS.register("wooden_bat",
-            () -> new BatItem(Tiers.WOOD, 8f, -3f, new Item.Properties()));
+            () -> new BatItem(Tiers.WOOD, 11f, -3.5f, new Item.Properties()));
     public static final RegistryObject<Item> METAL_BAT = ITEMS.register("metal_bat",
-            () -> new BatItem(Tiers.IRON, 8f, -3f, new Item.Properties()));
+            () -> new BatItem(Tiers.IRON, 8f, -3.5f, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_BAT = ITEMS.register("diamond_bat",
+            () -> new BatItem(Tiers.DIAMOND, 11f, -3.5f, new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_BAT = ITEMS.register("netherite_bat",
+            () -> new BatItem(Tiers.NETHERITE, 20f, -3.7f, new Item.Properties()));
+    public static final RegistryObject<Item> OBSIDIAN_KNIFE = ITEMS.register("obsidian_knife",
+            () -> new KnifeItem(ModToolTiers.OBSIDIAN, 6, -2.4f, new Item.Properties()));
 
 
    public static void register(IEventBus eventBus) {

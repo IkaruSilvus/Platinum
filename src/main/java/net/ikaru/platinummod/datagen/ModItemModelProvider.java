@@ -78,6 +78,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.WRENCH);
         handheldItem(ModItems.WOODEN_BAT);
         handheldItem(ModItems.METAL_BAT);
+        handheldItem(ModItems.DIAMOND_BAT);
+        handheldItem(ModItems.NETHERITE_BAT);
+        handheldItem(ModItems.METAL_PIPE);
+        handheldItem(ModItems.OBSIDIAN_KNIFE);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-07T17:54:47.9664089	Recipes
+// 1.20.1	2024-11-09T11:44:43.5171903	Recipes
 f2ef1a5d471622bc2693558e0a12eb53aba23b07 data/platinum_mod/advancements/recipes/misc/cut_neoplatinum.json
 e58f13028ece6ed3cda117a0884a6e39dd72deda data/platinum_mod/advancements/recipes/misc/cut_neoplatinum_slab.json
 e2d98a43ffc0ff070b9a849ba099dceb4c535f64 data/platinum_mod/advancements/recipes/misc/cut_neoplatinum_stairs.json
@@ -7,6 +7,7 @@ bc6b45d9b0f70fe3173feb9e81f29a381a247b69 data/platinum_mod/advancements/recipes/
 1d0ab768cf97489b95bc3c2a41294022d0c20249 data/platinum_mod/advancements/recipes/misc/cut_platinum_stairs.json
 ee03a9876037244e415fb404f4f6da8165183088 data/platinum_mod/advancements/recipes/misc/neoplatinum.json
 97797b87a251bad6ba967224cf07c057dda3e2bd data/platinum_mod/advancements/recipes/misc/neoplatinum_block.json
+947f26fcff76799ffabb3fb12094c3dc56bb1e95 data/platinum_mod/advancements/recipes/misc/obsidian_knife.json
 dc128c9f4c6e54206763dfe2004230e8da698570 data/platinum_mod/advancements/recipes/misc/platinum.json
 6f491f6e5b3553ace4197d9e4215ef71baf80471 data/platinum_mod/advancements/recipes/misc/platinum_block.json
 1410b80ef50ddf42503b4793129ecb6ba9b29a7d data/platinum_mod/advancements/recipes/misc/platinum_from_blasting_deepslate_platinum_ore.json
@@ -25,6 +26,7 @@ d9b49038e8f8c3a1c0143d4d46d85d65b35a162d data/platinum_mod/recipes/cut_platinum_
 31bdfcff62ae162a41b94baa119bd28e22899a14 data/platinum_mod/recipes/cut_platinum_stairs.json
 ccf3b3f50a10be6ec6f2f5dae58d66ed0ac2b47c data/platinum_mod/recipes/neoplatinum.json
 aa39d53ad2ba6fcec2ad1e17e888257a4f2a1e5c data/platinum_mod/recipes/neoplatinum_block.json
+b5920fe159136c9401d601a1795ed96aaeb8950a data/platinum_mod/recipes/obsidian_knife.json
 595750520186bf9a33d38a923a333dd2ccbd2e90 data/platinum_mod/recipes/platinum.json
 46552b3b194d01460de57a798a431ab9a7ca4afc data/platinum_mod/recipes/platinum_block.json
 0d83ce53fe974cc24d2cf567280160d74bce3c69 data/platinum_mod/recipes/platinum_from_blasting_deepslate_platinum_ore.json

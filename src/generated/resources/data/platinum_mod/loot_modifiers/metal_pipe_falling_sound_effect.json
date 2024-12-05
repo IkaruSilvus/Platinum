@@ -3,12 +3,12 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:entities/ender_dragon"
+      "loot_table_id": "minecraft:entities/creeper"
     },
     {
-      "chance": 0.25,
+      "chance": 0.015,
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "platinum_mod:dragon_core"
+  "item": "platinum_mod:metal_pipe"
 }

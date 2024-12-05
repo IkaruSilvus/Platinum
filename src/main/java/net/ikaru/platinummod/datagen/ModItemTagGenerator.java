@@ -7,6 +7,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.nbt.TagType;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.crafting.SmithingTransformRecipe;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -56,6 +57,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.COPPER_SWORD.get(),
                         ModItems.NEOPLATINUM_BATTLEAXE.get(),
                         ModItems.NEOPLATINUM_SWORD.get(),
+                        ModItems.OBSIDIAN_KNIFE.get(),
                         ModItems.WRENCH.get());
     }
 }

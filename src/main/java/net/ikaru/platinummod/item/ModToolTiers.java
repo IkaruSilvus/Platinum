@@ -25,4 +25,9 @@ public class ModToolTiers {
             new ForgeTier(1,175,4.0f, -.5f,8,
                     ModTags.Blocks.NEEDS_COPPER_TOOL, () -> Ingredient.of(Items.COPPER_INGOT)),
             new ResourceLocation(PlatinumMod.MOD_ID, "copper"), List.of(Tiers.STONE), List.of(Tiers.IRON));
+    public static final Tier OBSIDIAN = TierSortingRegistry.registerTier(
+            new ForgeTier(1,3,4.0f, 0f,8,
+                    ModTags.Blocks.NEEDS_OBSIDIAN_TOOL, () -> Ingredient.of(Items.OBSIDIAN)),
+            new ResourceLocation(PlatinumMod.MOD_ID, "obsidian"), List.of(Tiers.DIAMOND), List.of(Tiers.NETHERITE));
+
 }

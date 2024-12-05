@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "platinum_mod:metal_pipe"
+    },
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "@": {
+      "item": "minecraft:netherite_block"
+    },
+    "$": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    " #@",
+    "#$#",
+    "S# "
+  ],
+  "result": {
+    "item": "platinum_mod:netherite_bat"
+  }
+}

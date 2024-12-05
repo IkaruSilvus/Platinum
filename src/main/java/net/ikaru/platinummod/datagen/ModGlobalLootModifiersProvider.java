@@ -18,6 +18,8 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     @Override
     protected void start() {
         add("dragon_core_from_ender_dragon", new AddItemModifier(new LootItemCondition[] {
-               new LootTableIdCondition.Builder(new ResourceLocation("entities/ender_dragon")).build(), LootItemRandomChanceCondition.randomChance(0.15f).build()}, ModItems.DRAGON_CORE.get()));
+               new LootTableIdCondition.Builder(new ResourceLocation("entities/ender_dragon")).build(), LootItemRandomChanceCondition.randomChance(0.25f).build()}, ModItems.DRAGON_CORE.get()));
+        add("metal_pipe_falling_sound_effect", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/creeper")).build(), LootItemRandomChanceCondition.randomChance(0.015f).build()}, ModItems.METAL_PIPE.get()));
     }
 }

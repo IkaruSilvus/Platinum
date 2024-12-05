@@ -1,15 +1,14 @@
 {
-  "parent": "platinum_mod:metal_pipe",
+  "parent": "minecraft:end/kill_dragon",
   "display": {
     "icon": {
-      "item": "platinum_mod:wooden_bat"
+      "item": "platinum_mod:dragon_core"
     },
-    "title": "HOLY SHIT",
-    "description": "IS THAT A FUCKING SLEEPING MIXEL REFERENCE???",
-    "frame": "task",
+    "title": "Draconic",
+    "description": "Obtain a Dragon Core",
+    "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": true
+    "announce_to_chat": true
   },
   "criteria": {
     "requirement": {
@@ -18,7 +17,7 @@
         "items": [
           {
             "items": [
-              "platinum_mod:wooden_bat"
+              "platinum_mod:dragon_core"
             ]
           }
         ]

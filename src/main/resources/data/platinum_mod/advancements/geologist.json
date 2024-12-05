@@ -1,0 +1,47 @@
+{
+  "parent": "platinum_mod:knife",
+  "criteria": {
+    "geologist": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "platinum_mod:obsidian_knife"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:wooden_bat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "My hatred of geologists is purely theatrical"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "platinum_mod:wooden_bat",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "How to kill a Geologist"
+    }
+  },
+  "requirements": [
+    [
+      "geologist"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

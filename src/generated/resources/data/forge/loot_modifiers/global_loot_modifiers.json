@@ -1,6 +1,7 @@
 {
   "entries": [
-    "platinum_mod:dragon_core_from_ender_dragon"
+    "platinum_mod:dragon_core_from_ender_dragon",
+    "platinum_mod:metal_pipe_falling_sound_effect"
   ],
   "replace": false
 }

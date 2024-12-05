@@ -14,6 +14,7 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_PLATINUM_TOOL = tag("needs_platinum_tool");
         public static final TagKey<Block> NEEDS_NEOPLATINUM_TOOL = tag("needs_neoplatinum_tool");
         public static final TagKey<Block> NEEDS_COPPER_TOOL = tag("needs_copper_tool");
+        public static final TagKey<Block> NEEDS_OBSIDIAN_TOOL = tag("needs_obsidian_tool");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(PlatinumMod.MOD_ID, name));

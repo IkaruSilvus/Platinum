@@ -1,16 +1,14 @@
 {
+  "parent": "platinum_mod:root",
   "display": {
     "icon": {
       "item": "platinum_mod:platinum"
     },
-    "title": {
-      "translate": "advancements.platinum.root.title"
-    },
-    "background": "platinum_mod/textures/block/raw_platinum_block.png",
-    "description": "gaming",
+    "title": "Metal of Royalty",
+    "description": "Obtain a Platinum Ingot",
     "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false
+    "show_toast": true,
+    "announce_to_chat": true
   },
   "criteria": {
     "requirement": {
@@ -19,7 +17,7 @@
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "platinum_mod:platinum"
             ]
           }
         ]

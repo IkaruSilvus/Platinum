@@ -5,11 +5,14 @@ import net.ikaru.platinummod.block.ModBlocks;
 import net.ikaru.platinummod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.ShapedRecipe;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -96,6 +99,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .define('S', ModItems.NEOPLATINUM.get())
                 .unlockedBy(getHasName(ModBlocks.NEOPLATINUM_CUT.get()), has(ModItems.NEOPLATINUM.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.OBSIDIAN_KNIFE.get())
+                .pattern(" #")
+                .pattern("S ")
+                .define('#', Blocks.OBSIDIAN)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.OBSIDIAN), has(Items.OBSIDIAN))
                 .save(pWriter);
 
 

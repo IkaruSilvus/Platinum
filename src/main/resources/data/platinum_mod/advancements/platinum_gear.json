@@ -1,0 +1,57 @@
+{
+  "parent": "platinum_mod:platinum",
+  "criteria": {
+    "platinum_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "platinum_mod:platinum_helmet"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:platinum_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:platinum_leggings"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:platinum_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.platinum.gear1.desc"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "platinum_mod:platinum_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.platinum.gear1.title"
+    }
+  },
+  "requirements": [
+    [
+      "platinum_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

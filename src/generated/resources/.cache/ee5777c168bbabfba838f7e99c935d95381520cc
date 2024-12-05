@@ -1,3 +1,4 @@
-// 1.20.1	2024-06-23T23:32:52.854043	Global Loot Modifiers : platinum_mod
-cfd19dc7890baf1d692495401398b983060001f1 data/forge/loot_modifiers/global_loot_modifiers.json
-3e927146367ff83d8536940c42a13211fdf7b0bd data/platinum_mod/loot_modifiers/dragon_core_from_ender_dragon.json
+// 1.20.1	2024-10-10T18:58:16.8197568	Global Loot Modifiers : platinum_mod
+94918a9b5cc4b136fc740c49c57037223f1374a8 data/forge/loot_modifiers/global_loot_modifiers.json
+5657d021762fc24dd73e551f20b5213ed162cbbe data/platinum_mod/loot_modifiers/dragon_core_from_ender_dragon.json
+e5f372947f14bc6753d421b19ff73beb72ea8db0 data/platinum_mod/loot_modifiers/metal_pipe_falling_sound_effect.json

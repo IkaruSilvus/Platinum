@@ -1,11 +1,11 @@
 {
-  "parent": "platinum_mod:metal_pipe",
+  "parent": "platinum_mod:root",
   "display": {
     "icon": {
-      "item": "platinum_mod:wooden_bat"
+      "item": "platinum_mod:metal_pipe"
     },
-    "title": "HOLY SHIT",
-    "description": "IS THAT A FUCKING SLEEPING MIXEL REFERENCE???",
+    "title": "oh shit",
+    "description": "metal_pipe_falling_sound_effect.mp3",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "platinum_mod:wooden_bat"
+              "platinum_mod:metal_pipe"
             ]
           }
         ]

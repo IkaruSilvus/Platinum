@@ -35,6 +35,10 @@
   "item.platinum_mod.wrench": "Wrench",
   "item.platinum_mod.wooden_bat": "Wooden Bat",
   "item.platinum_mod.metal_bat": "Metal Bat",
+  "item.platinum_mod.diamond_bat": "Diamond Bat",
+  "item.platinum_mod.netherite_bat": "Netherite Bat",
+  "item.platinum_mod.metal_pipe": "Metal Pipe",
+  "item.platinum_mod.obsidian_knife": "Obsidian Knife",
 
   "item.platinum_mod.dragon_charge": "Dragon Charge",
   "item.platinum_mod.ender_tear": "Ender Tear",
@@ -59,8 +63,14 @@
   "creativetab.platinum_tab": "Platinum: Materials",
   "creativetab.platinum_blocks": "Platinum: Blocks",
   "creativetab.platinum_gear": "Platinum: Gear",
+  "creativetab.joke": "Joke Items",
 
   "tooltip.platinummod.wrench.tooltip": "§5§oWhy would you make this?",
   "tooltip.platinummod.bat.tooltip": "§5§oget bonked loser",
-  "advancements.platinum.root.title": "Platinum"
+  "tooltip.platinummod.knife.tooltip": "§5§oA geologist's worst nightmare",
+  "advancements.platinum.root.title": "Platinum",
+  "advancements.platinum.gear1.title": "Cover me in Platinum",
+  "advancements.platinum.gear1.desc": "Get a full set of Platinum armor",
+  "advancements.platinum.gear2.title": "Cover me in Platinum Debris",
+  "advancements.platinum.gear2.desc": "Get a full set of NeoPlatinum armor"
 }

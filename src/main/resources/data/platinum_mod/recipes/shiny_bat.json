@@ -6,18 +6,18 @@
       "item": "platinum_mod:metal_pipe"
     },
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:diamond"
     },
     "@": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:diamond_block"
     }
   },
   "pattern": [
-    "  @",
-    " # ",
-    "S  "
+    " #@",
+    "#@#",
+    "S# "
   ],
   "result": {
-    "item": "platinum_mod:metal_bat"
+    "item": "platinum_mod:diamond_bat"
   }
 }

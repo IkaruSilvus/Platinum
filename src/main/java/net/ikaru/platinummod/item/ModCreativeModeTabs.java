@@ -67,9 +67,20 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.NEOPLATINUM_LEGGINGS.get());
                         pOutput.accept(ModItems.NEOPLATINUM_BOOTS.get());
                         pOutput.accept(ModItems.NEOPLATINUM_BATTLEAXE.get());
+                    })
+                    .build());
+    public static final RegistryObject<CreativeModeTab> JOKE = CREATIVE_MODE_TABS.register("joke",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WRENCH.get()))
+                    .title(Component.translatable("creativetab.joke"))
+                    .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.WRENCH.get());
+                        pOutput.accept(ModItems.OBSIDIAN_KNIFE.get());
                         pOutput.accept(ModItems.WOODEN_BAT.get());
                         pOutput.accept(ModItems.METAL_BAT.get());
+                        pOutput.accept(ModItems.DIAMOND_BAT.get());
+                        pOutput.accept(ModItems.NETHERITE_BAT.get());
+                        pOutput.accept(ModItems.METAL_PIPE.get());
+
                     })
                     .build());
 

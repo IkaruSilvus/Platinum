@@ -33,6 +33,12 @@
   "item.platinum_mod.copper_boots": "Kupferstiefel",
 
   "item.platinum_mod.wrench": "Schraubenschlüssel",
+  "item.platinum_mod.wooden_bat": "Holzschläger",
+  "item.platinum_mod.metal_bat": "Metallschläger",
+  "item.platinum_mod.diamond_bat": "Diamantschläger",
+  "item.platinum_mod.netherite_bat": "Netheritschläger",
+  "item.platinum_mod.metal_pipe": "Metallrohr",
+  "item.platinum_mod.obsidian_knife": "Obsidianmesser",
 
   "item.platinum_mod.dragon_charge": "Drachenfeuerball",
   "item.platinum_mod.ender_tear": "Enderträne",
@@ -56,7 +62,13 @@
   "creativetab.platinum_tab": "Platin: Materialien",
   "creativetab.platinum_blocks": "Platin: Blöcke",
   "creativetab.platinum_gear": "Platin: Ausrüstung",
+  "creativetab.joke": "Scherzartikel",
 
   "tooltip.platinummod.wrench.tooltip": "§5§oWelchen Sinn hat es, das zu schaffen?",
-  "advancements.platinum.root.title": "Platin"
+  "tooltip.platinummod.knife.tooltip": "§5§oDer schlimmste Albtraum eines Geologen",
+  "advancements.platinum.root.title": "Platin",
+  "advancements.platinum.gear1.title": "Bedeck mich mit Platin",
+  "advancements.platinum.gear1.desc": "Besorge dir eine komplette Platinrüstung",
+  "advancements.platinum.gear2.title": "Bedeck mich mit Platinschrott",
+  "advancements.platinum.gear2.desc": "Besorge dir eine komplette NeoPlatinrüstung"
 }
