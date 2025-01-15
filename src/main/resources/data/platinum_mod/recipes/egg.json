@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "#": {
+      "item": "platinum_mod:ender_tear"
+    },
+    "@": {
+      "item": "platinum_mod:dragon_core"
+    },
+    "$": {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  },
+  "pattern": [
+    "#O#",
+    "O@O",
+    "$O$"
+  ],
+  "result": {
+    "item": "minecraft:dragon_egg"
+  }
+}
