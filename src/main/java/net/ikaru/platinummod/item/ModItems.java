@@ -33,6 +33,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> METAL_PIPE = ITEMS.register("metal_pipe",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_SPIKE = ITEMS.register("platinum_spike",
+            () -> new Item(new Item.Properties()));
 
 
     public static final RegistryObject<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword",

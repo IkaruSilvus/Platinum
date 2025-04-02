@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-09T11:13:52.2362011	Item Models: platinum_mod
+// 1.20.1	2025-01-29T21:05:30.3761556	Item Models: platinum_mod
 f551d74a39dd6ebe191bafb089abdf294be8fd80 assets/platinum_mod/models/item/copper_axe.json
 b67ee5606b86e746902c9af53b0280fb764d40c4 assets/platinum_mod/models/item/copper_boots.json
 4e33c940256832a3e28170b30a3bc70248d7920f assets/platinum_mod/models/item/copper_boots_amethyst_trim.json
@@ -156,6 +156,7 @@ f9c755c5b19fb64e7b9e311ddb3fa80a03a09338 assets/platinum_mod/models/item/platinu
 07e86b5fd1fb3c0cba63fa01a381c6ec434ef2e5 assets/platinum_mod/models/item/platinum_leggings_redstone_trim.json
 b44719aaa2c4a642dd1512adb312623dc0816179 assets/platinum_mod/models/item/platinum_pickaxe.json
 386898f5731dc0f2257e4b18a6e1ee45d71458df assets/platinum_mod/models/item/platinum_shovel.json
+915d51455b192db9272185470e4cc031dce8894b assets/platinum_mod/models/item/platinum_spike.json
 0b5d43cad6462caf09ca475a765c4b93ba42dfc4 assets/platinum_mod/models/item/platinum_sword.json
 b651ee5b3ecdf0b30e24d44cae86adaae3f24b3e assets/platinum_mod/models/item/raw_platinum.json
 4ad894af9e73c29e25bb6098e197415c856ed936 assets/platinum_mod/models/item/synthetic_dragon_core.json

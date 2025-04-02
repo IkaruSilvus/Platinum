@@ -82,6 +82,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.NETHERITE_BAT);
         handheldItem(ModItems.METAL_PIPE);
         handheldItem(ModItems.OBSIDIAN_KNIFE);
+        handheldItem(ModItems.PLATINUM_SPIKE);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
