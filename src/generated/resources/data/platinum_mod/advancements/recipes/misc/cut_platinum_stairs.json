@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_platinum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "platinum_mod:platinum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "platinum_mod:cut_platinum_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_platinum",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "platinum_mod:cut_platinum_stairs"
+    ]
+  },
+  "sends_telemetry_event": false
+}
