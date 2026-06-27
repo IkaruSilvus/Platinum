@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "@": {
-      "item": "platinum_mod:platinum"
+      "tag": "forge:ingots/platinum"
     },
     "#": {
       "item": "minecraft:netherite_ingot"

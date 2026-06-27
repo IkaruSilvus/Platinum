@@ -6,7 +6,7 @@
       "item": "minecraft:stick"
     },
     "#": {
-      "item": "platinum_mod:platinum"
+      "tag": "forge:ingots/platinum"
     }
   },
   "pattern": [

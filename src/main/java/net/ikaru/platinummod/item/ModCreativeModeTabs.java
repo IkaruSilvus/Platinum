@@ -18,13 +18,15 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINUM.get()))
                     .title(Component.translatable("creativetab.platinum_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.PLATINUM.get());
-                        pOutput.accept(ModItems.NEOPLATINUM.get());
                         pOutput.accept(ModItems.RAW_PLATINUM.get());
+                        pOutput.accept(ModItems.PLATINUM.get());
+                        pOutput.accept(ModItems.PLATINUM_SPIKE.get());
+                        pOutput.accept(ModItems.NEOPLATINUM.get());
                         pOutput.accept(ModItems.ENDER_TEAR.get());
                         pOutput.accept(ModItems.DRAGON_CHARGE.get());
                         pOutput.accept(ModItems.DRAGON_CORE.get());
                         pOutput.accept(ModItems.SYNTHETIC_DRAGON_CORE.get());
+
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> PLATINUM_BLOCKS = CREATIVE_MODE_TABS.register("platinum_blocks",
