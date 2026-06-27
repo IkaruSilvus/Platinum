@@ -1,5 +1,5 @@
 {
-  "parent": "platinum_mod:mixel_bat",
+  "parent": "platinum_mod:cari_bat",
   "display": {
     "icon": {
       "item": "platinum_mod:metal_bat"
