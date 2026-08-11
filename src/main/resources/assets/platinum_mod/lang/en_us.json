@@ -62,6 +62,7 @@
   "block.platinum_mod.deepslate_platinum_ore": "Deepslate Platinum Ore",
 
   "effect.platinum_mod.bleed": "Bleed",
+  "death.attack.bleeding": "%1$s bled out",
 
   "creativetab.platinum_tab": "Platinum: Materials",
   "creativetab.platinum_blocks": "Platinum: Blocks",

@@ -1,7 +1,9 @@
 package net.ikaru.platinummod.effect;
 
 import net.ikaru.platinummod.PlatinumMod;
+import net.ikaru.platinummod.damage.ModDamageSources;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffects;
@@ -19,17 +21,19 @@ public class ModEffect  extends MobEffect implements net.minecraftforge.common.e
         super(pCategory, pColor);
     }
 
-
     @Override
     public void applyEffectTick(@NotNull LivingEntity pLivingEntity, int pAmplifier) {
-        if (this == ModEffects.BLEED) {
-            pLivingEntity.hurt(pLivingEntity.damageSources().wither(), 1.0F);
+        if (this == ModEffects.BLEED.get()) {
+            DamageSource bleeding =
+                    new ModDamageSources(pLivingEntity.level().registryAccess()).bleeding();
+            pLivingEntity.hurt(bleeding, 1.0F);
         }
     }
 
+
     @Override
     public boolean isDurationEffectTick(int pDuration, int pAmplifier) {
-        if (this == ModEffects.BLEED) {
+        if (this == ModEffects.BLEED.get()) {
             int i = 30 >> pAmplifier;
             if (i > 0) {
                 return pDuration % i == 0;
