@@ -98,15 +98,15 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> WRENCH = ITEMS.register("wrench",
-            () -> new WrenchItem(Tiers.IRON, 3f, -2.4f, new Item.Properties()));
+            () -> new WrenchItem(Tiers.IRON, 3, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_BAT = ITEMS.register("wooden_bat",
-            () -> new BatItem(Tiers.WOOD, 11f, -3.5f, new Item.Properties()));
+            () -> new BatItem(Tiers.WOOD, 11, -3.5f, new Item.Properties()));
     public static final RegistryObject<Item> METAL_BAT = ITEMS.register("metal_bat",
-            () -> new BatItem(Tiers.IRON, 8f, -3.5f, new Item.Properties()));
+            () -> new BatItem(Tiers.IRON, 8, -3.5f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_BAT = ITEMS.register("diamond_bat",
-            () -> new BatItem(Tiers.DIAMOND, 11f, -3.5f, new Item.Properties()));
+            () -> new BatItem(Tiers.DIAMOND, 11, -3.5f, new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_BAT = ITEMS.register("netherite_bat",
-            () -> new BatItem(Tiers.NETHERITE, 20f, -3.7f, new Item.Properties()));
+            () -> new BatItem(Tiers.NETHERITE, 20, -3.7f, new Item.Properties()));
     public static final RegistryObject<Item> OBSIDIAN_KNIFE = ITEMS.register("obsidian_knife",
             () -> new KnifeItem(ModToolTiers.OBSIDIAN, 6, -2.4f, new Item.Properties()));
 
