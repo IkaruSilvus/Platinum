@@ -51,6 +51,8 @@
   "item.platinum_mod.dragon_core": "Dragon Core",
   "item.platinum_mod.synthetic_dragon_core": "Synthetic Dragon Core",
 
+  "item.platinum_mod.platinum_arrow": "Platinum Arrow",
+  "tooltip.platinummod.platinum_arrow.tooltip": "§cBleeding (0:10)",
 
   "block.platinum_mod.platinum_block": "Block of Platinum",
   "block.platinum_mod.raw_platinum_block": "Block of Raw Platinum",

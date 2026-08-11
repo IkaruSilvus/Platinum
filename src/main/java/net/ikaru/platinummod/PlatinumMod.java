@@ -2,7 +2,9 @@ package net.ikaru.platinummod;
 
 import com.mojang.logging.LogUtils;
 import net.ikaru.platinummod.block.ModBlocks;
+import net.ikaru.platinummod.client.ClientProxy;
 import net.ikaru.platinummod.effect.ModEffect;
+import net.ikaru.platinummod.entity.ModEntities;
 import net.ikaru.platinummod.item.ModCreativeModeTabs;
 import net.ikaru.platinummod.effect.ModEffects;
 import net.ikaru.platinummod.item.ModItems;
@@ -15,9 +17,11 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
@@ -27,6 +31,7 @@ public class PlatinumMod
 {
     public static final String MOD_ID = "platinum_mod";
     public static final Logger LOGGER = LogUtils.getLogger();
+    public static CommonProxy PROXY = DistExecutor.safeRunForDist(() -> ClientProxy::new, () -> CommonProxy::new);
 
     public PlatinumMod()
     {
@@ -47,6 +52,7 @@ public class PlatinumMod
 
         ModEffects.register(modEventBus);
         ModEffect.register(modEventBus);
+        ModEntities.ENTITIES.register(modEventBus);
 
     }
 
@@ -80,7 +86,10 @@ public class PlatinumMod
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            event.enqueueWork(() -> PROXY.clientInit());
+        }
+        private void setupComplete(final FMLLoadCompleteEvent event) {
+            PROXY.postInit();
         }
     }
     public static ResourceLocation asResource(String path) {

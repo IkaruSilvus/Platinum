@@ -4,11 +4,9 @@ import net.ikaru.platinummod.PlatinumMod;
 import net.ikaru.platinummod.item.custom.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.ikaru.platinummod.item.ModToolTiers;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -115,6 +113,8 @@ public class ModItems {
     public static final RegistryObject<Item> OBSIDIAN_KNIFE = ITEMS.register("obsidian_knife",
             () -> new KnifeItem(ModToolTiers.OBSIDIAN, 6, -2.4f, new Item.Properties()));
 
+    public static final RegistryObject<Item> PLATINUM_ARROW = ITEMS.register("platinum_arrow",
+            () -> new PlatinumArrowItem());
 
    public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

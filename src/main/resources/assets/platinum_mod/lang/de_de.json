@@ -51,6 +51,8 @@
   "item.platinum_mod.dragon_core": "Drachenkern",
   "item.platinum_mod.synthetic_dragon_core": "Synthetischer Drachenkern",
 
+  "item.platinum_mod.platinum_arrow": "Platinpfeil",
+
   "block.platinum_mod.platinum_block": "Platinblock",
   "block.platinum_mod.raw_platinum_block": "Rohplatinblock",
   "block.platinum_mod.cut_platinum": "Geschnittener Platinblock",
@@ -78,5 +80,7 @@
   "advancements.platinum.gear1.title": "Verteidigung von den Untoten",
   "advancements.platinum.gear1.desc": "Besorge dir eine komplette Platinrüstung",
   "advancements.platinum.gear2.title": "Infernaler Schutz",
-  "advancements.platinum.gear2.desc": "Besorge dir eine komplette NeoPlatinrüstung"
+  "advancements.platinum.gear2.desc": "Besorge dir eine komplette NeoPlatinrüstung",
+  "item.platinum_mod.platinum_arrow": "Platinum Arrow",
+  "tooltip.platinummod.bat.tooltip": "§5§oget bonked loser"
 }
