@@ -7,15 +7,12 @@
     },
     "#": {
       "item": "minecraft:iron_ingot"
-    },
-    "@": {
-      "item": "minecraft:iron_block"
     }
   },
   "pattern": [
-    "  @",
-    " # ",
-    "S  "
+    " ##",
+    "#S#",
+    "S# "
   ],
   "result": {
     "item": "platinum_mod:metal_bat"

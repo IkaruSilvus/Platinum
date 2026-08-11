@@ -7,17 +7,11 @@
     },
     "#": {
       "item": "minecraft:netherite_ingot"
-    },
-    "@": {
-      "item": "minecraft:netherite_block"
-    },
-    "$": {
-      "item": "minecraft:nether_star"
     }
   },
   "pattern": [
-    " #@",
-    "#$#",
+    " ##",
+    "#S#",
     "S# "
   ],
   "result": {

@@ -13,9 +13,9 @@
     }
   },
   "pattern": [
-    "  @",
-    " # ",
-    "S  "
+    " #@",
+    "#S#",
+    "S# "
   ],
   "result": {
     "item": "platinum_mod:wooden_bat"

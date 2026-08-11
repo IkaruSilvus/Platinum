@@ -7,14 +7,11 @@
     },
     "#": {
       "item": "minecraft:diamond"
-    },
-    "@": {
-      "item": "minecraft:diamond_block"
     }
   },
   "pattern": [
-    " #@",
-    "#@#",
+    " ##",
+    "#S#",
     "S# "
   ],
   "result": {
