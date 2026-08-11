@@ -6,7 +6,7 @@
     "title": {
       "translate": "advancements.platinum.root.title"
     },
-    "background": "platinum_mod/textures/block/raw_platinum_block.png",
+    "background": "platinum_mod:textures/block/raw_platinum_block.png",
     "description": "gaming",
     "frame": "task",
     "show_toast": false,

@@ -4,9 +4,9 @@
     "icon": {
       "item": "platinum_mod:netherite_bat"
     },
-    "title": "Superior",
-    "description": "An Even Better Bat",
-    "frame": "task",
+    "title": "Black Knife",
+    "description": "Obtain a Netherite Bat",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true

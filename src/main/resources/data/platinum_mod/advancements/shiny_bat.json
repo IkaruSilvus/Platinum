@@ -5,7 +5,7 @@
       "item": "platinum_mod:diamond_bat"
     },
     "title": "Shiny Weapon",
-    "description": "A Better Bat",
+    "description": "Obtain a Diamond Bat",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
