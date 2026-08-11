@@ -21,6 +21,8 @@ public class ModArmorItem extends ArmorItem {
     public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);
     }
+    
+
 
     @Override
     public void onArmorTick(ItemStack stack, Level world, Player player) {

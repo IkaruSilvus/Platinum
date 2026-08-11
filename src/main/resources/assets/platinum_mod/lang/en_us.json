@@ -61,6 +61,8 @@
   "block.platinum_mod.platinum_ore": "Platinum Ore",
   "block.platinum_mod.deepslate_platinum_ore": "Deepslate Platinum Ore",
 
+  "effect.platinum_mod.bleed": "Bleed",
+
   "creativetab.platinum_tab": "Platinum: Materials",
   "creativetab.platinum_blocks": "Platinum: Blocks",
   "creativetab.platinum_gear": "Platinum: Gear",

@@ -2,7 +2,9 @@ package net.ikaru.platinummod;
 
 import com.mojang.logging.LogUtils;
 import net.ikaru.platinummod.block.ModBlocks;
+import net.ikaru.platinummod.effect.ModEffect;
 import net.ikaru.platinummod.item.ModCreativeModeTabs;
+import net.ikaru.platinummod.effect.ModEffects;
 import net.ikaru.platinummod.item.ModItems;
 import net.ikaru.platinummod.loot.ModLootModifiers;
 import net.minecraft.resources.ResourceLocation;
@@ -13,9 +15,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -44,6 +44,9 @@ public class PlatinumMod
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        ModEffects.register(modEventBus);
+        ModEffect.register(modEventBus);
 
     }
 
