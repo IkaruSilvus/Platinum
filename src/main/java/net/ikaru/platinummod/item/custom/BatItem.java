@@ -67,13 +67,6 @@ public class BatItem extends TieredItem implements Vanishable {
     }
 
     /**
-     * Check whether this Item can harvest the given Block
-     */
-    public boolean isCorrectToolForDrops(BlockState pBlock) {
-        return pBlock.is(Blocks.COBWEB);
-    }
-
-    /**
      * Gets a map of item attribute modifiers, used by ItemSword to increase hit damage.
      */
     public Multimap<Attribute, AttributeModifier> getDefaultAttributeModifiers(EquipmentSlot pEquipmentSlot) {

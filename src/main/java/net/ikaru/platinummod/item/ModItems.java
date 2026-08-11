@@ -48,13 +48,13 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe",
             () -> new HoeItem(ModToolTiers.PLATINUM, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_SWORD = ITEMS.register("neoplatinum_sword",
-            () -> new SwordItem(ModToolTiers.NEOPLATINUM, 13, -2.4f, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.NEOPLATINUM, 9, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_PICKAXE = ITEMS.register("neoplatinum_pickaxe",
             () -> new PickaxeItem(ModToolTiers.NEOPLATINUM, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_AXE = ITEMS.register("neoplatinum_axe",
-            () -> new AxeItem(ModToolTiers.NEOPLATINUM, 15, -3, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.NEOPLATINUM, 11, -3, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_BATTLEAXE = ITEMS.register("neoplatinum_battleaxe",
-            () -> new SwordItem(ModToolTiers.NEOPLATINUM, 17, -3, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.NEOPLATINUM, 13, -3.3f, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_SHOVEL = ITEMS.register("neoplatinum_shovel",
             () -> new ShovelItem(ModToolTiers.NEOPLATINUM, 6, -3, new Item.Properties()));
     public static final RegistryObject<Item> NEOPLATINUM_HOE = ITEMS.register("neoplatinum_hoe",
@@ -100,13 +100,13 @@ public class ModItems {
     public static final RegistryObject<Item> WRENCH = ITEMS.register("wrench",
             () -> new WrenchItem(Tiers.IRON, 3, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_BAT = ITEMS.register("wooden_bat",
-            () -> new BatItem(Tiers.WOOD, 11, -3.5f, new Item.Properties()));
+            () -> new BatItem(Tiers.WOOD, 10, -3.3f, new Item.Properties()));
     public static final RegistryObject<Item> METAL_BAT = ITEMS.register("metal_bat",
-            () -> new BatItem(Tiers.IRON, 8, -3.5f, new Item.Properties()));
+            () -> new BatItem(Tiers.IRON, 9, -3.3f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_BAT = ITEMS.register("diamond_bat",
-            () -> new BatItem(Tiers.DIAMOND, 11, -3.5f, new Item.Properties()));
+            () -> new BatItem(Tiers.DIAMOND, 10, -3.5f, new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_BAT = ITEMS.register("netherite_bat",
-            () -> new BatItem(Tiers.NETHERITE, 20, -3.7f, new Item.Properties()));
+            () -> new BatItem(Tiers.NETHERITE, 11, -3.7f, new Item.Properties()));
     public static final RegistryObject<Item> OBSIDIAN_KNIFE = ITEMS.register("obsidian_knife",
             () -> new KnifeItem(ModToolTiers.OBSIDIAN, 6, -2.4f, new Item.Properties()));
 
