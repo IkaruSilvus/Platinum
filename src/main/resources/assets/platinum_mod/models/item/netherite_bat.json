@@ -1,0 +1,33 @@
+{
+  "parent": "forge:item/default",
+  "base": {
+    "parent": "platinum_mod:item/netherite_bat_in_hand"
+  },
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "firstperson_lefthand": {
+      "parent": "platinum_mod:item/netherite_bat_in_hand"
+    },
+    "firstperson_righthand": {
+      "parent": "platinum_mod:item/netherite_bat_in_hand"
+    },
+    "thirdperson_lefthand": {
+      "parent": "platinum_mod:item/netherite_bat_in_hand"
+    },
+    "thirdperson_righthand": {
+      "parent": "platinum_mod:item/netherite_bat_in_hand"
+    },
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "platinum_mod:item/netherite_bat"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "platinum_mod:item/netherite_bat"
+      }
+    }
+  }
+}
