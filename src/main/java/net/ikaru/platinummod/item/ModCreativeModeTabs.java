@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PLATINUM.get());
                         pOutput.accept(ModItems.PLATINUM_SPIKE.get());
                         pOutput.accept(ModItems.NEOPLATINUM.get());
+                        pOutput.accept(ModItems.METAL_PIPE.get());
                         pOutput.accept(ModItems.ENDER_TEAR.get());
                         pOutput.accept(ModItems.DRAGON_CHARGE.get());
                         pOutput.accept(ModItems.DRAGON_CORE.get());
@@ -81,7 +82,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.METAL_BAT.get());
                         pOutput.accept(ModItems.DIAMOND_BAT.get());
                         pOutput.accept(ModItems.NETHERITE_BAT.get());
-                        pOutput.accept(ModItems.METAL_PIPE.get());
+                        pOutput.accept(ModItems.WOODEN_SPIKE_BAT.get());
+                        pOutput.accept(ModItems.METAL_SPIKE_BAT.get());
+                        pOutput.accept(ModItems.DIAMOND_SPIKE_BAT.get());
+                        pOutput.accept(ModItems.NETHERITE_SPIKE_BAT.get());
+
 
                     })
                     .build());

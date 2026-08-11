@@ -1,10 +1,7 @@
 package net.ikaru.platinummod.item;
 
 import net.ikaru.platinummod.PlatinumMod;
-import net.ikaru.platinummod.item.custom.BatItem;
-import net.ikaru.platinummod.item.custom.KnifeItem;
-import net.ikaru.platinummod.item.custom.ModArmorItem;
-import net.ikaru.platinummod.item.custom.WrenchItem;
+import net.ikaru.platinummod.item.custom.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -107,6 +104,14 @@ public class ModItems {
             () -> new BatItem(Tiers.DIAMOND, 10, -3.5f, new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_BAT = ITEMS.register("netherite_bat",
             () -> new BatItem(Tiers.NETHERITE, 11, -3.7f, new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_SPIKE_BAT = ITEMS.register("wooden_spike_bat",
+            () -> new SpikeBatItem(Tiers.WOOD, 10, -3.3f, new Item.Properties()));
+    public static final RegistryObject<Item> METAL_SPIKE_BAT = ITEMS.register("metal_spike_bat",
+            () -> new SpikeBatItem(Tiers.IRON, 9, -3.3f, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_SPIKE_BAT = ITEMS.register("diamond_spike_bat",
+            () -> new SpikeBatItem(Tiers.DIAMOND, 10, -3.5f, new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_SPIKE_BAT = ITEMS.register("netherite_spike_bat",
+            () -> new SpikeBatItem(Tiers.NETHERITE, 11, -3.7f, new Item.Properties()));
     public static final RegistryObject<Item> OBSIDIAN_KNIFE = ITEMS.register("obsidian_knife",
             () -> new KnifeItem(ModToolTiers.OBSIDIAN, 6, -2.4f, new Item.Properties()));
 

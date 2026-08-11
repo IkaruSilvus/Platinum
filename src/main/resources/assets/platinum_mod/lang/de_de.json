@@ -38,6 +38,10 @@
   "item.platinum_mod.metal_bat": "Metallschläger",
   "item.platinum_mod.diamond_bat": "Diamantschläger",
   "item.platinum_mod.netherite_bat": "Netheritschläger",
+  "item.platinum_mod.wooden_spike_bat": "Stacheliger Holzschläger",
+  "item.platinum_mod.metal_spike_bat": "Stacheliger Metallschläger",
+  "item.platinum_mod.diamond_spike_bat": "Stacheliger Diamantschläger",
+  "item.platinum_mod.netherite_spike_bat": "Stacheliger Netheritschläger",
   "item.platinum_mod.metal_pipe": "Metallrohr",
   "item.platinum_mod.obsidian_knife": "Obsidianmesser",
 

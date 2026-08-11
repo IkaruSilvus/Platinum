@@ -38,6 +38,10 @@
   "item.platinum_mod.metal_bat": "Metal Bat",
   "item.platinum_mod.diamond_bat": "Diamond Bat",
   "item.platinum_mod.netherite_bat": "Netherite Bat",
+  "item.platinum_mod.wooden_spike_bat": "Spiked Wooden Bat",
+  "item.platinum_mod.metal_spike_bat": "Spiked Metal Bat",
+  "item.platinum_mod.diamond_spike_bat": "Spiked Diamond Bat",
+  "item.platinum_mod.netherite_spike_bat": "Spiked Netherite Bat",
   "item.platinum_mod.metal_pipe": "Metal Pipe",
   "item.platinum_mod.obsidian_knife": "Obsidian Knife",
 

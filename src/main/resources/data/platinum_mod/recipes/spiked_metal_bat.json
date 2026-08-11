@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "/": {
+      "item": "platinum_mod:metal_bat"
+    },
+    "@": {
+      "item": "platinum_mod:platinum_spike"
+    }
+  },
+  "pattern": [
+    "@@@",
+    "@/@",
+    "@@@"
+  ],
+  "result": {
+    "item": "platinum_mod:metal_spike_bat"
+  }
+}
