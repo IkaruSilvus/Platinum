@@ -2,11 +2,11 @@
   "parent": "platinum_mod:neoplatinum",
   "display": {
     "icon": {
-      "item": "platinum_mod:neoplatinum_battleaxe"
+      "item": "platinum_mod:neoplatinum_hoe"
     },
-    "title": "Death of an Executioner",
-    "description": "Obtain a NeoPlatinum Battleaxe",
-    "frame": "task",
+    "title": "Infernal Dedication",
+    "description": "Obtain a NeoPlatinum Hoe",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "platinum_mod:neoplatinum_battleaxe"
+              "platinum_mod:neoplatinum_hoe"
             ]
           }
         ]
