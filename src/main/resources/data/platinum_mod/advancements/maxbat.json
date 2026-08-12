@@ -1,0 +1,77 @@
+{
+  "parent": "platinum_mod:hell_bat",
+  "criteria": {
+    "geologist": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "platinum_mod:wooden_bat"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:metal_bat"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:diamond_bat"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:netherite_bat"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:wooden_spike_bat"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:metal_spike_bat"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:diamond_spike_bat"
+            ]
+          },
+          {
+            "items": [
+              "platinum_mod:netherite_spike_bat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Obtain all tiers of bats"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "platinum_mod:netherite_spike_bat",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Grand Slam"
+    }
+  },
+  "requirements": [
+    [
+      "geologist"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

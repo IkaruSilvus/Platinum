@@ -1,0 +1,71 @@
+{
+  "parent": "platinum_mod:hell_bat",
+  "criteria": {
+    "killed_ghast": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ghast"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "platinum_mod:wooden_bat",
+                  "platinum_mod:metal_bat",
+                  "platinum_mod:diamond_bat",
+                  "platinum_mod:netherite_bat",
+                  "platinum_mod:wooden_spike_bat",
+                  "platinum_mod:metal_spike_bat",
+                  "platinum_mod:diamond_spike_bat",
+                  "platinum_mod:netherite_spike_bat"
+                ]
+              }
+            }
+          },
+          "direct_entity": {
+            "type": "minecraft:fireball"
+          },
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_projectile"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.platinum.ghast_parry.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "platinum_mod:netherite_bat"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.platinum.ghast_parry.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_ghast"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

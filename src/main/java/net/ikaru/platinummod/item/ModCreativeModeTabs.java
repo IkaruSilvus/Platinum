@@ -60,6 +60,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PLATINUM_CHESTPLATE.get());
                         pOutput.accept(ModItems.PLATINUM_LEGGINGS.get());
                         pOutput.accept(ModItems.PLATINUM_BOOTS.get());
+                        pOutput.accept(ModItems.PLATINUM_ARROW.get());
                         pOutput.accept(ModItems.NEOPLATINUM_SWORD.get());
                         pOutput.accept(ModItems.NEOPLATINUM_PICKAXE.get());
                         pOutput.accept(ModItems.NEOPLATINUM_AXE.get());

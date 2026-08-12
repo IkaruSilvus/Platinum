@@ -1,0 +1,60 @@
+{
+  "parent": "platinum_mod:wrench",
+  "criteria": {
+    "killed_ghast": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ghast"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "platinum_mod:wrench"
+                ]
+              }
+            }
+          },
+          "direct_entity": {
+            "type": "minecraft:fireball"
+          },
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_projectile"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.platinum.wrench_parry.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "platinum_mod:wrench"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.platinum.wrench_parry.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_ghast"
+    ]
+  ]
+}

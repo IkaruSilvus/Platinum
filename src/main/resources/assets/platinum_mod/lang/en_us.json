@@ -82,5 +82,9 @@
   "advancements.platinum.gear1.title": "Ward off the Undead",
   "advancements.platinum.gear1.desc": "Get a full set of Platinum armor",
   "advancements.platinum.gear2.title": "Infernal Protection",
-  "advancements.platinum.gear2.desc": "Get a full set of NeoPlatinum armor"
+  "advancements.platinum.gear2.desc": "Get a full set of NeoPlatinum armor",
+  "advancements.platinum.ghast_parry.title": "Batter Up!",
+  "advancements.platinum.ghast_parry.desc": "Knock a Ghast's fireball back with any bat",
+  "advancements.platinum.wrench_parry.title": "One Last Thing",
+  "advancements.platinum.wrench_parry.desc": "Knock a Ghast's fireball back with a wrench"
 }
