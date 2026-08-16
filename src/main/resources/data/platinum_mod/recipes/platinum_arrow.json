@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:feather"
+    },
+    "<": {
+      "item": "platinum_mod:platinum_spike"
+    }
+  },
+  "pattern": [
+    " < ",
+    " S ",
+    " # "
+  ],
+  "result": {
+    "item": "platinum_mod:platinum_arrow"
+  }
+}
